@@ -1,0 +1,6 @@
+<% drawings.each do |drawing| %>
+  <div class="col-md-4 design-background-wrapper">
+    <%= link_to image_tag(drawing.res, :alt => drawing.name, :class => "img-rounded"), drawing_path(drawing) %>
+   <p><%= link_to drawing.name, drawing_path(drawing) %></p>
+  </div>
+<% end %>

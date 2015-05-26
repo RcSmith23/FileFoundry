@@ -1,0 +1,30 @@
+<div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    	<!--I don't think we need this. Redundant w/ home button -->
+	<!--<#%= link_to "FileFoundry", root_path, :class => "navbar" %>-->
+    </div>
+    <div id="navbar navbar-left" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <%= nav_link "Home", root_path  %>
+        <%= nav_link "About", about_path %>
+        <%= nav_link "Drawings", drawings_path %>
+      </ul>
+      <ul class="nav navbar-nav navbar-right" style="margin-left: 1em;">
+        <% if user_signed_in? %>
+          <p>Hello, <%= current_user.email %>. </p>
+        <% else %>
+          <%= nav_button "Sign Up", new_user_registration_path %>
+          <%= nav_button "Sign in", user_session_path %>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+  <%= render 'layouts/flash' %>
+</div>

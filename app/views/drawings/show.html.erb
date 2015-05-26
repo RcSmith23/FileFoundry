@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h2><%= @drawing.name %></h2>
+      <hr>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <%= image_tag @drawing.res, :alt => @drawing.name, :class => "img-rounded", :style => "width:100%;" %>
+    </div>
+    <div class="col-md-5 col-md-offset-1">
+      <h3>Description</h3>
+      <%= @drawing.description %>
+      <hr>
+      <h3>Where to find</h3>
+      <%= link_to "Get this file", "#{@drawing.origin}", :class => "btn btn-default" %>
+    </div>
+  </div>
+  <br><br>
+</div>

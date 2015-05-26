@@ -1,0 +1,27 @@
+$footer-height: 8%;
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	margin-bottom: $footer-height;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;	
+	height: $footer-height;
+	width: 100%;
+	margin-top: 1em;
+	p, h3 {
+		color: #c6c6c6;
+	}
+}
+
+@media (min-width: 768px) {
+	#footer {
+		height: $footer-height;
+	}
+}

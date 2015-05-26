@@ -1,0 +1,98 @@
+.jumbotron{
+	background-color: #ff4d4d;
+}
+
+.navbar-brand{
+    padding-left: 1em;
+}
+
+.center{
+	text-align: center;
+	
+}
+
+.form-control{
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.form-group{
+	text-align: center;
+}
+
+.col-md-6{
+	padding-top: 2vw;
+}
+.clickable-block{
+	
+	
+	height: 100%
+	padding-top:1em;	
+}
+
+.container.detailView{
+	display:none;
+}
+
+.inline{
+	display:inline-block;
+	background-color: #d3d3d3;
+	padding-left: 4em;
+	padding-right: 4em;
+	padding-bottom: 3em;
+	padding-top: 3em;
+}
+
+.link-color{
+	color: black;
+}
+
+.design.container{
+	
+	padding-top: 2em;
+	padding-bottom:3em;
+	
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.design-background-wrapper{
+
+}
+
+.design-background-wrapper a{
+	color: #666;
+	padding-top: 0em;
+	height: 100%;
+}
+
+.design-background-wrapper p{
+	font-size: 1.5em;
+	text-align:center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	margin-bottom: 3em;
+	background-color:#d3d3d3;
+	border-radius: 0em 0em 1em 1em;
+	
+}
+
+.design-background-wrapper p:hover{
+	text-decoration: none;
+	background-color:#d3d3d3;
+}
+
+.design-background-wrapper img{
+	border-radius: 1em 1em 0em 0em;
+	width: 100%;
+	max-height: 230px;
+}
+
+.design-background-wrapper a:hover{
+	text-decoration: none;
+	background-color: #d3d3d3;
+}
+
+a{
+	text-decoration: none;
+}

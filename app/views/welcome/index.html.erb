@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="row">
+    <h3 align="center">At File-Foundry we aim to create an easy to use, centralized source for all your 3D printing needs
+    </h3>
+    <h3 align="center">By creating a community of contribution and innovation we hope to revolutionize the 3D printing industry</h3>
+  </div> 
+  <br>
+  <br>
+  <br>
+  <br>
+  <h4 align="center"> Want to stay updated? By providing us with your email you can stay up to date with all our latest changes and additions
+  </h4>
+
+  <%= form_tag emails_path, method: "post", class: "form-inline center" do %>
+    <div class="form-group">
+      <%= text_field_tag :email, nil, placeholder: "Enter email address", class: "form-control" %>
+    </div>
+    <%= submit_tag "Sumbit", class: "btn btn-default" %>
+  <%end%>
+</div>
