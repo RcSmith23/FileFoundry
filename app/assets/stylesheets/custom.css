@@ -106,21 +106,21 @@ a {
 
 /* Navbar title */
 .navbar-custom .navbar-brand {
-  /* color: */
+  color: #fff;
 }
 .navbar-custom .navbar-brand:hover,
 .navar-custom .navbar-brand:focus {
-  /* color: ; */
+  color: #888;
 }
 
 /* Navbar links */
 .navbar-custom .navbar-nav > li > a {
-  /* color: ; */
+  color: #fff;
 }
 .navbar-custom .navbar-nav > li > a:hover,
 .navbar-custom .navbar-nav > li > a:focus {
-  /* color: ; 
-   * background-color: ;*/
+  color: #888;
+  background-color: rgba(0, 0, 0, 0);
 }
 .navbar-custom .navbar-nav > .active > a,
 .navbar-custom .navbar-nav > .active > a:hover,
