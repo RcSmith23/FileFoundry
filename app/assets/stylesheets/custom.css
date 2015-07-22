@@ -1,5 +1,47 @@
 .jumbotron{
-  background-color: #ff4d4d;
+  min-height: 400px;
+
+  background-image: url(/assets/hero.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+/*
+ * -------------------------------
+ * Custom jumbo responsize search 
+ * -------------------------------
+ */
+
+#jumbo-search {
+  color: #fff;
+  margin-top: 125px;
+}
+
+#jumbo-search form {
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.6);
+  /*border: 1px solid #fff;*/
+  /* overflow: auto; */
+}
+
+#jumbo-search .biginput {
+  padding: 0 5px;
+  width: 600px;
+  height: 30px;
+  background-color: #fff;
+  outline: none;
+
+  border: 0;
+  border-radius: 5px;
+
+  color: #aeaeae;
+}
+
+#jumbo-search .biginput:focus {
+  color: #858585;
+  outline-color: transparent;
+  outline-style: none;
 }
 
 .navbar-brand{
