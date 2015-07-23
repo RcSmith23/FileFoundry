@@ -1,0 +1,49 @@
+/***************************
+ * Markup for homepage jumbotron banner
+ * and auto search functionality
+ **************************/
+
+.jumbotron{
+  min-height: 400px;
+
+  background-image: url(/assets/hero.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+#jumbo-search {
+  color: #fff;
+  margin-top: 125px;
+
+  form {
+    padding: 15px;
+    width: 630px;
+
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-right: auto;
+    margin-left: auto;
+    /*border: 1px solid #fff;*/
+    /* overflow: auto; */
+  }
+
+  .biginput {
+    width: 600px;
+    height: 30px;
+    padding: 0 5px;
+    outline: none;
+
+    border: 0;
+    border-radius: 5px;
+
+    color: #858585;
+    background-color: #fff;
+  }
+
+  .biginput:focus {
+    color: #000;
+
+    outline-color: transparent;
+    outline-style: none;
+  }
+}

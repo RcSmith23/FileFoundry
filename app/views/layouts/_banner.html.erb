@@ -1,11 +1,12 @@
 <div class="jumbotron">
   <div class="container">
     <div id="jumbo-search">
-      <form id="jumbo-search-form" action="">
-        <input class="biginput" type="text" placeholder="search.."/>
-        <div id="jumbo-search-ouput">
-        </div>
-      </form>
+      <%= form_tag(drawings_path, :method => "get", id: "jumbo-search-form") do %> 
+        <%= hidden_field_tag 1, params[:page] %>
+        <%= text_field_tag :search, params[:search], placeholder: "search...",
+            class: "biginput"  %>
+        <div id="jumbo-search-ouput"></div>
+      <% end %>
     </div>
   </div>
 </div>

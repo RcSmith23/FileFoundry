@@ -12,8 +12,6 @@
  *
  *
  *= require bootstrap.min
- *= require jumbotron
- *= require custom
  *
  *= require_tree .
  *= require_self
@@ -36,8 +34,6 @@
 	margin-left: 1em;
 }
 
-.margin-left{
+.margin-left {
 	margin-left: 1em;
 }
-
-

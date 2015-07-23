@@ -1,0 +1,79 @@
+/* Custom Navbar styling */
+
+/* Navbar main */
+
+.navbar-custom {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-style: none;
+
+  .navbar-brand {
+    color: #fff;
+  }
+
+  .navbar-brand:hover,
+  .navbar-brand:focus {
+    color: #888;
+  }
+
+  .navbar-nav > li > a {
+    color: #fff;
+    font-size: 16px;
+  }
+
+  .navbar-nav > li > a:hover,
+  .navbar-nav > li > a:focus {
+    color: #888;
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .navbar-nav > .active > a,
+  .navbar-nav > .active > a:hover,
+  .navbar-nav > .active > a:focus {
+    /* color: ; 
+     * background-color: ;*/
+  }
+
+  .navbar-nav > .open > a,
+  .navbar-nav > .open > a:hover,
+  .navbar-nav > .open > a:focus {
+    /* color: ; 
+     * background-color: ;*/
+  }
+
+  .navbar-nav > .dropdown > a .caret {
+    border-top-color: #777;
+    border-bottom-color: #777;
+  }
+
+  .navbar-nav > .dropdown > a:hover .caret,
+  .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #333;
+    border-bottom-color: #333;
+  }
+
+  .navbar-nav > .open > a .caret, 
+  .navbar-nav > .open > a:hover .caret, 
+  .navbar-nav > .open > a:focus .caret {
+    border-top-color: #555;
+    border-bottom-color: #555;
+  }
+
+  .navbar-btn {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .navbar-toggle:hover,
+  .navbar-toggle:focus {
+    background-color: #DDD;
+  }
+
+  .navbar-toggle .icon-bar {
+    background-color: #CCC;
+  }
+}
+
+/* Mobile Version */
+.navbar-default .navbar-toggle {
+  border-color: #DDD;
+}
+

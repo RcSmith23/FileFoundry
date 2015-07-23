@@ -4,6 +4,13 @@ class DrawingsController < ApplicationController
 
   def index
     @drawings = Drawing.search(params[:page])
+    if params[:search]
+      @drawings = Drawing.where("name like ? ", "%#{params[:search]}%")
+          .page(params[:page])
+    else
+      @drawings = Drawing.search(params[:page])
+    end
+
   end
 
   def show
