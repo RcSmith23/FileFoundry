@@ -21,25 +21,31 @@
 #jumbo-search form {
   padding: 15px;
   background-color: rgba(0, 0, 0, 0.6);
+  width: 630px;
+
+  margin-right: auto;
+  margin-left: auto;
+
   /*border: 1px solid #fff;*/
   /* overflow: auto; */
 }
 
 #jumbo-search .biginput {
-  padding: 0 5px;
   width: 600px;
   height: 30px;
-  background-color: #fff;
+  padding: 0 5px;
   outline: none;
 
   border: 0;
   border-radius: 5px;
 
-  color: #aeaeae;
+  color: #858585;
+  background-color: #fff;
 }
 
 #jumbo-search .biginput:focus {
-  color: #858585;
+  color: #000;
+
   outline-color: transparent;
   outline-style: none;
 }
