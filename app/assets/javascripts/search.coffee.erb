@@ -1,0 +1,4 @@
+$( -> 
+  $("jumbo-search-form input").keyup -> 
+    $.get $("#jumbo-search-form").attr("action"), $("#jumbo-search-form").seriallize(), null, "script")
+    return false
