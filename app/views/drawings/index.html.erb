@@ -1,4 +1,13 @@
+<div id="drawings-search">
+  <div class="container">
+    <%= form_tag(drawings_path, :method => "get", id: "drawings-search-form") do %>
+      <%= text_field_tag :search, params[:search], placeholder: "search..." ,
+        class: "biginput" %>
+    <% end %>
+  </div>
+</div>
 <div class="container">
+
   <% if @drawings.empty? %>
     <p class="text-center">We currently have no drawings available.</p>
   <% else %>
