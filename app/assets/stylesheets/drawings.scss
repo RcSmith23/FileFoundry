@@ -7,8 +7,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 150px;
-  margin-bottom: 100px;
-  
+  background-color: rgba(0,0,0,0.6); 
   .biginput {
     width: 600px;
     height: 30px;
@@ -18,8 +17,11 @@
      }
 }
 #drawings-search {
-  background-color: #ff4e2c;
   min-height: 400px;
   margin-bottom: 30px;
+  background-image: url(/assets/filaments.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 
 }

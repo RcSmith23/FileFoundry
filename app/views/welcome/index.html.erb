@@ -1,21 +1,16 @@
 <%= render 'layouts/banner' %>
-<div class="container">
+<div class="container trending">
+  <div class="row ">
+    <h1> Today's Popular 3d Models </h1>
+      
+  </div>
   <div class="row">
-    <h3 align="center">At File-Foundry we aim to create an easy to use, centralized source for all your 3D printing needs
-    </h3>
-    <h3 align="center">By creating a community of contribution and innovation we hope to revolutionize the 3D printing industry</h3>
-  </div> 
-  <br>
-  <br>
-  <br>
-  <br>
-  <h4 align="center"> Want to stay updated? By providing us with your email you can stay up to date with all our latest changes and additions
-  </h4>
+    <% if @trending.empty? %> 
+      <p> No Trending Items Today </p>
+    <% else %>
+      <% @trending.each do |item| %>
+        <%= render 'popular', drawing: item %>
+      <% end %> 
+    <% end %>
 
-  <%= form_tag emails_path, method: "post", class: "form-inline center" do %>
-    <div class="form-group">
-      <%= text_field_tag :email, nil, placeholder: "Enter email address", class: "form-control" %>
-    </div>
-    <%= submit_tag "Sumbit", class: "btn btn-default" %>
-  <%end%>
 </div>
