@@ -59,36 +59,38 @@
 }
 
 .design-background-wrapper a{
-  color: #666;
+  color: #ffffff;
   padding-top: 0em;
   height: 100%;
 }
 
 .design-background-wrapper p{
-  font-size: 1.5em;
+  font-size: 1.7em;
   text-align:center;
   padding-top: 1em;
   padding-bottom: 1em;
   margin-bottom: 3em;
-  background-color:#d3d3d3;
-  border-radius: 0em 0em 1em 1em;
+  background: rgba(0,0,0,0.4);
+  border-radius: 0em 0em 5px 5px; 
+  color: #ffffff;
+
 
 }
 
 .design-background-wrapper p:hover{
   text-decoration: none;
-  background-color:#d3d3d3;
+  /*background-color:#d3d3d3;*/
 }
 
 .design-background-wrapper img{
-  border-radius: 1em 1em 0em 0em;
+  border-radius: 5px 5px 0em 0em;
   width: 100%;
   max-height: 230px;
 }
 
 .design-background-wrapper a:hover{
   text-decoration: none;
-  background-color: #d3d3d3;
+ /* background-color: #d3d3d3;*/
 }
 
 a {
