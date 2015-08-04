@@ -1,16 +1,19 @@
 <%= render 'layouts/banner' %>
-<div class="container trending">
-  <div class="row ">
-    <h1> Today's Popular 3d Models </h1>
-      
+<div class ="trending">
+  <div class="container">
+    <div class="row ">
+      <h1> Today's Popular 3d Models </h1>
+        
+    </div>
+    <div class="row">
+      <% if @trending.empty? %> 
+        <p> No Trending Items Today </p>
+      <% else %>
+        <% @trending.each do |item| %>
+          <%= render 'popular', drawing: item %>
+        <% end %> 
+      <% end %>
+
   </div>
-  <div class="row">
-    <% if @trending.empty? %> 
-      <p> No Trending Items Today </p>
-    <% else %>
-      <% @trending.each do |item| %>
-        <%= render 'popular', drawing: item %>
-      <% end %> 
-    <% end %>
 
 </div>
