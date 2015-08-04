@@ -2,8 +2,7 @@
 <div class ="trending">
   <div class="container">
     <div class="row ">
-      <h1> Today's Popular 3d Models </h1>
-        
+      <h2> Today's Popular 3d Models </h2>
     </div>
     <div class="row">
       <% if @trending.empty? %> 
@@ -13,7 +12,28 @@
           <%= render 'popular', drawing: item %>
         <% end %> 
       <% end %>
-
+    </div>
   </div>
-
+</div>
+<div class="pitch">
+  <div class="container">
+    <div class="row ">
+      <div class="col-md-6">
+        <h2>Sell Models</h2>
+        <p> At FileFoundry we aim to connect talented engineers with a large 
+        and diverse consumer market. Our concentration in 3D-printing 
+        means that end users are quickly directed towards suitable, relevant,
+        and high-fidelity models for their equiment. </p>
+        <%= link_to "Sign Up", new_user_registration_path, :class => "btn btn-default" %> 
+      </div>
+      <div class="col-md-6">
+        <h2>Buy Models</h2>
+        <p> By providing free and paid models, we ensure that consumers can find
+        the model that fulfills their needs. We also make it possible for skilled
+        engineers to place their time into developing high-fidelity models. It also
+        presses companies to release their components directly to consumers. </p>
+        <%= link_to "Browse", drawings_path, :class => "btn btn-default" %> 
+      </div>
+    </div>
+  </div>
 </div>

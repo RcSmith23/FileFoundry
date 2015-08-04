@@ -10,3 +10,18 @@
     padding: 15px;
   }
 }
+
+.pitch {
+  background-color: #3366ff;
+  min-height: 300px;
+  color: #ffffff;
+
+  p {
+    padding: 10px 0;
+  }
+
+  .btn {
+    position: absolute;
+    right: 80px;
+  }
+}
