@@ -2661,3 +2661,114 @@ Processing by WelcomeController#index as HTML
   Rendered layouts/_navbar.html.erb (2.9ms)
   Rendered layouts/_footer.html.erb (0.0ms)
 Completed 200 OK in 169ms (Views: 166.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2015-08-05 13:39:45 -0700
+Processing by WelcomeController#index as HTML
+  [1m[36mDrawing Load (0.4ms)[0m  [1mSELECT  "drawings".* FROM "drawings"  ORDER BY "drawings"."id" DESC LIMIT 3[0m
+  Rendered layouts/_banner.html.erb (1.4ms)
+  Rendered welcome/_popular.html.erb (0.5ms)
+  Rendered welcome/_popular.html.erb (0.3ms)
+  Rendered welcome/_popular.html.erb (0.4ms)
+  Rendered welcome/index.html.erb within layouts/application (8.1ms)
+  Rendered layouts/_head.html.erb (145.2ms)
+  Rendered layouts/_flash.html.erb (0.1ms)
+  Rendered layouts/_navbar.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 166ms (Views: 164.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/bootstrap.min-214b6a757b8192e0b8dfec570a35cfd0.css?body=1" for ::1 at 2015-08-05 13:39:46 -0700
+
+
+Started GET "/assets/banner-77cc8bc547b0e75093ed70fff993e4c3.css?body=1" for ::1 at 2015-08-05 13:39:46 -0700
+
+
+Started GET "/assets/custom-bbb3681c3fd025c1aa01ce6e0f03ab16.css?body=1" for ::1 at 2015-08-05 13:39:46 -0700
+
+
+Started GET "/assets/welcome-992f95451e004f4b7eb7e57634d9ffb1.css?body=1" for ::1 at 2015-08-05 13:39:46 -0700
+
+
+Started GET "/assets/drawings-4cef2eb7a455bd805a013ddf0d497820.css?body=1" for ::1 at 2015-08-05 13:39:46 -0700
+
+
+Started GET "/assets/application-98959fcbdc83df5138b58f2d69e06837.css?body=1" for ::1 at 2015-08-05 13:39:46 -0700
+
+
+Started GET "/assets/emails-069e88c06b889877799890854d7f4c40.css?body=1" for ::1 at 2015-08-05 13:39:46 -0700
+
+
+Started GET "/assets/layout/flash-ff4e156daecdcb89e7b968cfab79cff9.css?body=1" for ::1 at 2015-08-05 13:39:46 -0700
+
+
+Started GET "/assets/layout/footer-f536932ba9df3d4267c76eac72d384e0.css?body=1" for ::1 at 2015-08-05 13:39:46 -0700
+
+
+Started GET "/assets/pages-069e88c06b889877799890854d7f4c40.css?body=1" for ::1 at 2015-08-05 13:39:46 -0700
+
+
+Started GET "/assets/navbar-0cbcee919aa95b058c59a505d602641c.css?body=1" for ::1 at 2015-08-05 13:39:46 -0700
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-08-05 13:39:46 -0700
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-08-05 13:39:46 -0700
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-08-05 13:39:46 -0700
+
+
+Started GET "/assets/bootstrap.min-d8a45720a105ce3f0ed788e4a5fdd750.js?body=1" for ::1 at 2015-08-05 13:39:46 -0700
+
+
+Started GET "/assets/drawings-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-08-05 13:39:46 -0700
+
+
+Started GET "/assets/emails-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-08-05 13:39:46 -0700
+
+
+Started GET "/assets/global-modules/flash-c92326088e5d315d4e1c0d5cddab8a61.js?body=1" for ::1 at 2015-08-05 13:39:46 -0700
+
+
+Started GET "/assets/ie10-viewport-bug-workaround-cf19aad6e6bbbda1c547c691d1ef02aa.js?body=1" for ::1 at 2015-08-05 13:39:46 -0700
+
+
+Started GET "/assets/pages-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-08-05 13:39:46 -0700
+
+
+Started GET "/assets/query-5a507414cabdf617a2e7d15864ab56f6.js?body=1" for ::1 at 2015-08-05 13:39:46 -0700
+
+
+Started GET "/assets/script-e234f30bf90b4f33432c19959b7699cd.js?body=1" for ::1 at 2015-08-05 13:39:46 -0700
+
+
+Started GET "/assets/search-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-08-05 13:39:46 -0700
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-08-05 13:39:46 -0700
+
+
+Started GET "/assets/application-f2986a8690439cbae8e14bdb334e873d.js?body=1" for ::1 at 2015-08-05 13:39:46 -0700
+
+
+Started GET "/assets/hero.jpg" for ::1 at 2015-08-05 13:39:46 -0700
+
+
+Started GET "/drawings" for ::1 at 2015-08-05 13:40:36 -0700
+Processing by DrawingsController#index as HTML
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "drawings"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "drawings"[0m
+  [1m[35mDrawing Load (0.3ms)[0m  SELECT  "drawings".* FROM "drawings" LIMIT 15 OFFSET 0
+  Rendered drawings/_listing.html.erb (1.0ms)
+  Rendered drawings/_listing.html.erb (0.7ms)
+  Rendered drawings/index.html.erb within layouts/application (8.9ms)
+  Rendered layouts/_head.html.erb (139.9ms)
+  Rendered layouts/_flash.html.erb (0.2ms)
+  Rendered layouts/_navbar.html.erb (2.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 161ms (Views: 158.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/filaments.jpg" for ::1 at 2015-08-05 13:40:36 -0700
