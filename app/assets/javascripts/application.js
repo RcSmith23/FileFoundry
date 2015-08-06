@@ -11,10 +11,13 @@
 // about supported directives.
 //
 //= require jquery
+//= require jquery.turbolinks
 //= require jquery_ujs
-//= require turbolinks
 //= require_tree .
 //= require bootstrap.min
+//= require turbolinks
+//
+
 $(function(){
 $("div.design-background-wrapper").hover(function() {
   $( this ).find(".details").fadeIn(400);
