@@ -12,7 +12,7 @@
     <p class="text-center">We currently have no drawings available.</p>
   <% else %>
     <%= will_paginate @drawings, renderer: BootstrapPagination::Rails %>
-    <% @drawings.each_slice(3) do |chunk| %>
+    <% @drawings.each_slice(4) do |chunk| %>
       <div class="row">
         <%= render 'listing', drawings: chunk %>
       </div>

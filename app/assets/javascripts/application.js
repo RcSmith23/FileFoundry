@@ -15,3 +15,10 @@
 //= require turbolinks
 //= require_tree .
 //= require bootstrap.min
+$(function(){
+$("div.design-background-wrapper").hover(function() {
+  $( this ).children(".details").fadeIn(500);
+}, function() {
+  $( this ).children(".details").fadeOut(500);
+});
+});
