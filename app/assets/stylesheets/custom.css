@@ -85,6 +85,7 @@
   width: 100%;
   max-height: 197px;
   height: auto;
+  position: relative;
 
 }
 
@@ -94,10 +95,18 @@
 }
 
 .design-background-wrapper .details{
-  display:none;
-  background:#3c3c3c;
+  display: none;
+  position: absolute;
+
+  background: #3c3c3c;
   color: #ffffff;
-  z-index:200;
+  width: 100%;
+  min-height: 150px;
+  max-height: 197px;
+  height: auto;
+  border-radius: 5px 5px 0em 0em;
+
+  z-index: 200;
 }
 
 a {

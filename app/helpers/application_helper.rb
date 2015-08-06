@@ -13,4 +13,11 @@ module ApplicationHelper
       link_to link_text, link_path, :class => "btn btn-default margin-left navbar-btn"
     end
   end
+
+  def drawing_icon(drawing)
+    link_to drawing_path(drawing) do
+      content_tag(:span, "Details will be here", :class => "details")
+      image_tag(drawing.res, :alt => drawing.name, :class => "img-rounded")
+    end
+  end
 end
