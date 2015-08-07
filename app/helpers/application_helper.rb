@@ -16,8 +16,9 @@ module ApplicationHelper
 
   def drawing_icon(drawing)
     link_to drawing_path(drawing) do
-      content_tag(:span, "Details will be here", :class => "details")
       image_tag(drawing.res, :alt => drawing.name, :class => "img-rounded")
+      content_tag(:span, "Details will be here", :class => "details")
+      
     end
   end
 end

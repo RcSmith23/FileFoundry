@@ -1,6 +1,9 @@
 <div class="col-md-4 ">
   <div class="design-background-wrapper">
-    <%= drawing_icon drawing %>
+    <%= link_to drawing_path(drawing) do %>
+      <%= content_tag :span, "Details will go here", :class => "details" %>
+      <%= image_tag drawing.res, :alt => drawing.name, :class=>"img-rounded" %>
+    <% end %>
     <p><%= link_to drawing.name, drawing_path(drawing) %></p>
   </div>
 </div>

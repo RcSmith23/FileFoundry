@@ -98,15 +98,22 @@
   display: none;
   position: absolute;
 
-  background: #3c3c3c;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px;
   color: #ffffff;
   width: 100%;
   min-height: 150px;
   max-height: 197px;
-  height: auto;
+  height: 100%;
   border-radius: 5px 5px 0em 0em;
+  max-width: 350px;
+  z-index: 200; 
+  border-bottom: 1px solid #ffffff;
 
-  z-index: 200;
+}
+
+.col-md-3 .details{
+  max-width: 262.5px;
 }
 
 a {

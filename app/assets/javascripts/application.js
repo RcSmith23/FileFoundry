@@ -17,8 +17,8 @@
 //= require bootstrap.min
 $(function(){
 $("div.design-background-wrapper").hover(function() {
-  $( this ).children(".details").fadeIn(500);
+  $( this ).find(".details").fadeIn(400);
 }, function() {
-  $( this ).children(".details").fadeOut(500);
+  $( this ).find(".details").fadeOut(250);
 });
 });
