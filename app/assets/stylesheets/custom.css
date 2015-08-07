@@ -1,5 +1,8 @@
 /* TODO: clean this up and put into proper files */
 
+#footer {
+  padding: 15px;
+}
 
 .navbar-brand{
   padding-left: 1em;
@@ -55,6 +58,13 @@
 }
 
 .design-background-wrapper{
+  width: 260px;
+  height: 230px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  text-align: center;
+
   box-shadow: 7px 7px 5px #626262;  
   border-radius: 0em 0em 5px 5px; 
 }
@@ -64,59 +74,47 @@
   color: #ffffff;
 }
 
-.design-background-wrapper p{
-  font-size: 1.5em;
-  text-align:center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-bottom: 3em;
-  background: #3c3c3c;
-  border-radius: 0em 0em 5px 5px; 
-
-}
-
 .design-background-wrapper p:hover{
   text-decoration: none;
-  /*background-color:#d3d3d3;*/
 }
 
 .design-background-wrapper img{
-  border-radius: 5px 5px 0em 0em;
   width: 100%;
-  max-height: 197px;
-  height: auto;
+  height: 195px;
+  border-radius: 5px 5px 0em 0em;
   position: relative;
-
-}
-
-.design-background-wrapper a:hover{
-  text-decoration: none;
- /* background-color: #d3d3d3;*/
 }
 
 .design-background-wrapper .details{
   display: none;
   position: absolute;
+  width: 260px;
+  height: 195px;
 
   background: rgba(0, 0, 0, 0.6);
   padding: 10px;
   color: #ffffff;
-  width: 100%;
-  min-height: 150px;
-  max-height: 197px;
-  height: 100%;
   border-radius: 5px 5px 0em 0em;
-  max-width: 350px;
   z-index: 200; 
   border-bottom: 1px solid #ffffff;
-
 }
 
-.col-md-3 .details{
-  max-width: 262.5px;
+.design-label {
+  font-size: 1.4em;
+  display: inline-block;
+  vertical-align: middle;
+  height: 35px;
+  line-height: 35px;
+  width: 260px;
+  background-color: #3c3c3c;
+  border-radius: 0em 0em 5px 5px; 
 }
 
 a {
+  text-decoration: none;
+}
+
+a:hover {
   text-decoration: none;
 }
 

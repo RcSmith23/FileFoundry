@@ -4,6 +4,6 @@
       <%= content_tag :span, "Details will go here", :class => "details" %>
       <%= image_tag drawing.res, :alt => drawing.name, :class=>"img-rounded" %>
     <% end %>
-    <p><%= link_to drawing.name, drawing_path(drawing) %></p>
+    <span class="design-label"><%= link_to drawing.name, drawing_path(drawing) %></span> 
   </div>
 </div>
