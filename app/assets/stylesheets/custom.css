@@ -1,5 +1,9 @@
 /* TODO: clean this up and put into proper files */
 
+.body {
+  font-family: 'Lato';
+}
+
 #footer {
   padding: 15px;
 }

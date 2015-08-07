@@ -11301,3 +11301,100 @@ Started GET "/assets/query-5a507414cabdf617a2e7d15864ab56f6.js?body=1" for ::1 a
 
 
 Started GET "/assets/filaments.jpg" for ::1 at 2015-08-07 15:32:48 -0700
+
+
+Started GET "/" for ::1 at 2015-08-07 15:47:08 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  [1m[35mDrawing Load (1.1ms)[0m  SELECT  "drawings".* FROM "drawings"  ORDER BY "drawings"."id" DESC LIMIT 3
+  Rendered layouts/_banner.html.erb (1.3ms)
+  Rendered welcome/_popular.html.erb (1.1ms)
+  Rendered welcome/_popular.html.erb (0.3ms)
+  Rendered welcome/_popular.html.erb (0.3ms)
+  Rendered welcome/index.html.erb within layouts/application (10.8ms)
+  Rendered layouts/_head.html.erb (339.2ms)
+  Rendered layouts/_flash.html.erb (1.7ms)
+  Rendered layouts/_navbar.html.erb (9.0ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 403ms (Views: 374.6ms | ActiveRecord: 4.9ms)
+
+
+Started GET "/assets/bootstrap.min-214b6a757b8192e0b8dfec570a35cfd0.css?body=1" for ::1 at 2015-08-07 15:47:08 -0700
+
+
+Started GET "/assets/banner-77cc8bc547b0e75093ed70fff993e4c3.css?body=1" for ::1 at 2015-08-07 15:47:09 -0700
+
+
+Started GET "/assets/custom-41b4102fcd94b6e97a49556b088c7c28.css?body=1" for ::1 at 2015-08-07 15:47:09 -0700
+
+
+Started GET "/assets/drawings-4cef2eb7a455bd805a013ddf0d497820.css?body=1" for ::1 at 2015-08-07 15:47:09 -0700
+
+
+Started GET "/assets/emails-069e88c06b889877799890854d7f4c40.css?body=1" for ::1 at 2015-08-07 15:47:09 -0700
+
+
+Started GET "/assets/layout/footer-f536932ba9df3d4267c76eac72d384e0.css?body=1" for ::1 at 2015-08-07 15:47:09 -0700
+
+
+Started GET "/assets/layout/flash-ff4e156daecdcb89e7b968cfab79cff9.css?body=1" for ::1 at 2015-08-07 15:47:09 -0700
+
+
+Started GET "/assets/pages-069e88c06b889877799890854d7f4c40.css?body=1" for ::1 at 2015-08-07 15:47:09 -0700
+
+
+Started GET "/assets/navbar-0cbcee919aa95b058c59a505d602641c.css?body=1" for ::1 at 2015-08-07 15:47:09 -0700
+
+
+Started GET "/assets/welcome-992f95451e004f4b7eb7e57634d9ffb1.css?body=1" for ::1 at 2015-08-07 15:47:09 -0700
+
+
+Started GET "/assets/application-3ec3a306a77dc54266e030758c9aa78f.css?body=1" for ::1 at 2015-08-07 15:47:09 -0700
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-08-07 15:47:09 -0700
+
+
+Started GET "/assets/jquery.turbolinks-051c63717f28dee8f54d3ecd892deff0.js?body=1" for ::1 at 2015-08-07 15:47:09 -0700
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-08-07 15:47:09 -0700
+
+
+Started GET "/assets/bootstrap.min-d8a45720a105ce3f0ed788e4a5fdd750.js?body=1" for ::1 at 2015-08-07 15:47:09 -0700
+
+
+Started GET "/assets/drawings-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-08-07 15:47:09 -0700
+
+
+Started GET "/assets/emails-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-08-07 15:47:09 -0700
+
+
+Started GET "/assets/global-modules/flash-c92326088e5d315d4e1c0d5cddab8a61.js?body=1" for ::1 at 2015-08-07 15:47:09 -0700
+
+
+Started GET "/assets/ie10-viewport-bug-workaround-cf19aad6e6bbbda1c547c691d1ef02aa.js?body=1" for ::1 at 2015-08-07 15:47:09 -0700
+
+
+Started GET "/assets/pages-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-08-07 15:47:09 -0700
+
+
+Started GET "/assets/query-5a507414cabdf617a2e7d15864ab56f6.js?body=1" for ::1 at 2015-08-07 15:47:09 -0700
+
+
+Started GET "/assets/script-e234f30bf90b4f33432c19959b7699cd.js?body=1" for ::1 at 2015-08-07 15:47:09 -0700
+
+
+Started GET "/assets/search-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-08-07 15:47:09 -0700
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-08-07 15:47:09 -0700
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-08-07 15:47:09 -0700
+
+
+Started GET "/assets/application-5242582676e80013f8593a72fc9b20c7.js?body=1" for ::1 at 2015-08-07 15:47:09 -0700
+
+
+Started GET "/assets/hero.jpg" for ::1 at 2015-08-07 15:47:09 -0700
