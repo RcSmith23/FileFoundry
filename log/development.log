@@ -11398,3 +11398,794 @@ Started GET "/assets/application-5242582676e80013f8593a72fc9b20c7.js?body=1" for
 
 
 Started GET "/assets/hero.jpg" for ::1 at 2015-08-07 15:47:09 -0700
+
+
+Started GET "/" for ::1 at 2015-08-08 14:16:53 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  [1m[35mDrawing Load (0.9ms)[0m  SELECT  "drawings".* FROM "drawings"  ORDER BY "drawings"."id" DESC LIMIT 3
+  Rendered layouts/_banner.html.erb (1.1ms)
+  Rendered welcome/_popular.html.erb (1.0ms)
+  Rendered welcome/_popular.html.erb (0.3ms)
+  Rendered welcome/_popular.html.erb (0.4ms)
+  Rendered welcome/index.html.erb within layouts/application (10.1ms)
+  Rendered layouts/_head.html.erb (315.6ms)
+  Rendered layouts/_flash.html.erb (1.3ms)
+  Rendered layouts/_navbar.html.erb (8.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 377ms (Views: 349.5ms | ActiveRecord: 4.8ms)
+
+
+Started GET "/assets/bootstrap.min-214b6a757b8192e0b8dfec570a35cfd0.css?body=1" for ::1 at 2015-08-08 14:16:53 -0700
+
+
+Started GET "/assets/custom-fdb520d2008a08330441fe6a45a4eb8b.css?body=1" for ::1 at 2015-08-08 14:16:53 -0700
+
+
+Started GET "/assets/application-c527eeaf83894e3fe16b27080809f5bf.css?body=1" for ::1 at 2015-08-08 14:16:53 -0700
+
+
+Started GET "/assets/layout/footer-f536932ba9df3d4267c76eac72d384e0.css?body=1" for ::1 at 2015-08-08 14:16:53 -0700
+
+
+Started GET "/assets/query-5a507414cabdf617a2e7d15864ab56f6.js?body=1" for ::1 at 2015-08-08 14:16:53 -0700
+
+
+Started GET "/assets/pages-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-08-08 14:16:53 -0700
+
+
+Started GET "/assets/search-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-08-08 14:16:53 -0700
+
+
+Started GET "/assets/script-e234f30bf90b4f33432c19959b7699cd.js?body=1" for ::1 at 2015-08-08 14:16:53 -0700
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-08-08 14:16:53 -0700
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-08-08 14:16:53 -0700
+
+
+Started GET "/assets/application-5242582676e80013f8593a72fc9b20c7.js?body=1" for ::1 at 2015-08-08 14:16:53 -0700
+
+
+Started GET "/assets/emails-069e88c06b889877799890854d7f4c40.css?body=1" for ::1 at 2015-08-08 14:16:53 -0700
+
+
+Started GET "/assets/drawings-4cef2eb7a455bd805a013ddf0d497820.css?body=1" for ::1 at 2015-08-08 14:16:53 -0700
+
+
+Started GET "/assets/banner-77cc8bc547b0e75093ed70fff993e4c3.css?body=1" for ::1 at 2015-08-08 14:16:53 -0700
+
+
+Started GET "/assets/layout/flash-ff4e156daecdcb89e7b968cfab79cff9.css?body=1" for ::1 at 2015-08-08 14:16:53 -0700
+
+
+Started GET "/assets/navbar-0cbcee919aa95b058c59a505d602641c.css?body=1" for ::1 at 2015-08-08 14:16:53 -0700
+
+
+Started GET "/assets/pages-069e88c06b889877799890854d7f4c40.css?body=1" for ::1 at 2015-08-08 14:16:53 -0700
+
+
+Started GET "/assets/welcome-992f95451e004f4b7eb7e57634d9ffb1.css?body=1" for ::1 at 2015-08-08 14:16:53 -0700
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-08-08 14:16:53 -0700
+
+
+Started GET "/assets/jquery.turbolinks-051c63717f28dee8f54d3ecd892deff0.js?body=1" for ::1 at 2015-08-08 14:16:53 -0700
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-08-08 14:16:53 -0700
+
+
+Started GET "/assets/bootstrap.min-d8a45720a105ce3f0ed788e4a5fdd750.js?body=1" for ::1 at 2015-08-08 14:16:53 -0700
+
+
+Started GET "/assets/drawings-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-08-08 14:16:53 -0700
+
+
+Started GET "/assets/emails-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-08-08 14:16:53 -0700
+
+
+Started GET "/assets/global-modules/flash-c92326088e5d315d4e1c0d5cddab8a61.js?body=1" for ::1 at 2015-08-08 14:16:53 -0700
+
+
+Started GET "/assets/ie10-viewport-bug-workaround-cf19aad6e6bbbda1c547c691d1ef02aa.js?body=1" for ::1 at 2015-08-08 14:16:53 -0700
+
+
+Started GET "/assets/hero.jpg" for ::1 at 2015-08-08 14:16:54 -0700
+
+
+Started GET "/drawings" for ::1 at 2015-08-08 14:17:16 -0700
+Processing by DrawingsController#index as HTML
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "drawings"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "drawings"
+  [1m[36mDrawing Load (0.5ms)[0m  [1mSELECT  "drawings".* FROM "drawings" LIMIT 15 OFFSET 0[0m
+  Rendered drawings/_listing.html.erb (2.3ms)
+  Rendered drawings/_listing.html.erb (0.7ms)
+  Rendered drawings/index.html.erb within layouts/application (12.8ms)
+  Rendered layouts/_head.html.erb (172.8ms)
+  Rendered layouts/_flash.html.erb (0.7ms)
+  Rendered layouts/_navbar.html.erb (3.7ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 203ms (Views: 199.9ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/filaments.jpg" for ::1 at 2015-08-08 14:17:17 -0700
+
+
+Started GET "/drawings" for ::1 at 2015-08-08 14:19:28 -0700
+Processing by DrawingsController#index as HTML
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "drawings"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "drawings"[0m
+  [1m[35mDrawing Load (0.4ms)[0m  SELECT  "drawings".* FROM "drawings" LIMIT 15 OFFSET 0
+  Rendered drawings/_listing.html.erb (2.0ms)
+  Rendered drawings/_listing.html.erb (0.5ms)
+  Rendered drawings/index.html.erb within layouts/application (9.6ms)
+  Rendered layouts/_head.html.erb (226.1ms)
+  Rendered layouts/_flash.html.erb (0.1ms)
+  Rendered layouts/_navbar.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 246ms (Views: 243.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/bootstrap.min-214b6a757b8192e0b8dfec570a35cfd0.css?body=1" for ::1 at 2015-08-08 14:19:29 -0700
+
+
+Started GET "/assets/banner-77cc8bc547b0e75093ed70fff993e4c3.css?body=1" for ::1 at 2015-08-08 14:19:29 -0700
+
+
+Started GET "/assets/drawings-4cef2eb7a455bd805a013ddf0d497820.css?body=1" for ::1 at 2015-08-08 14:19:29 -0700
+
+
+Started GET "/assets/custom-40b348d17ec3e9987dd16c03efa4ea00.css?body=1" for ::1 at 2015-08-08 14:19:29 -0700
+
+
+Started GET "/assets/layout/flash-ff4e156daecdcb89e7b968cfab79cff9.css?body=1" for ::1 at 2015-08-08 14:19:29 -0700
+
+
+Started GET "/assets/navbar-0cbcee919aa95b058c59a505d602641c.css?body=1" for ::1 at 2015-08-08 14:19:29 -0700
+
+
+Started GET "/assets/emails-069e88c06b889877799890854d7f4c40.css?body=1" for ::1 at 2015-08-08 14:19:29 -0700
+
+
+Started GET "/assets/layout/footer-f536932ba9df3d4267c76eac72d384e0.css?body=1" for ::1 at 2015-08-08 14:19:29 -0700
+
+
+Started GET "/assets/pages-069e88c06b889877799890854d7f4c40.css?body=1" for ::1 at 2015-08-08 14:19:29 -0700
+
+
+Started GET "/assets/welcome-992f95451e004f4b7eb7e57634d9ffb1.css?body=1" for ::1 at 2015-08-08 14:19:29 -0700
+
+
+Started GET "/assets/application-4486a1c3d66e7f035d7394568094ea30.css?body=1" for ::1 at 2015-08-08 14:19:29 -0700
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-08-08 14:19:29 -0700
+
+
+Started GET "/assets/jquery.turbolinks-051c63717f28dee8f54d3ecd892deff0.js?body=1" for ::1 at 2015-08-08 14:19:29 -0700
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-08-08 14:19:29 -0700
+
+
+Started GET "/assets/bootstrap.min-d8a45720a105ce3f0ed788e4a5fdd750.js?body=1" for ::1 at 2015-08-08 14:19:29 -0700
+
+
+Started GET "/assets/drawings-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-08-08 14:19:29 -0700
+
+
+Started GET "/assets/emails-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-08-08 14:19:29 -0700
+
+
+Started GET "/assets/global-modules/flash-c92326088e5d315d4e1c0d5cddab8a61.js?body=1" for ::1 at 2015-08-08 14:19:29 -0700
+
+
+Started GET "/assets/ie10-viewport-bug-workaround-cf19aad6e6bbbda1c547c691d1ef02aa.js?body=1" for ::1 at 2015-08-08 14:19:29 -0700
+
+
+Started GET "/assets/pages-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-08-08 14:19:29 -0700
+
+
+Started GET "/assets/query-5a507414cabdf617a2e7d15864ab56f6.js?body=1" for ::1 at 2015-08-08 14:19:29 -0700
+
+
+Started GET "/assets/script-e234f30bf90b4f33432c19959b7699cd.js?body=1" for ::1 at 2015-08-08 14:19:29 -0700
+
+
+Started GET "/assets/search-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-08-08 14:19:29 -0700
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-08-08 14:19:29 -0700
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-08-08 14:19:29 -0700
+
+
+Started GET "/assets/application-5242582676e80013f8593a72fc9b20c7.js?body=1" for ::1 at 2015-08-08 14:19:29 -0700
+
+
+Started GET "/assets/filaments.jpg" for ::1 at 2015-08-08 14:19:29 -0700
+
+
+Started GET "/drawings" for ::1 at 2015-08-08 14:19:56 -0700
+Processing by DrawingsController#index as HTML
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "drawings"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "drawings"
+  [1m[36mDrawing Load (0.4ms)[0m  [1mSELECT  "drawings".* FROM "drawings" LIMIT 15 OFFSET 0[0m
+  Rendered drawings/_listing.html.erb (1.8ms)
+  Rendered drawings/_listing.html.erb (1.0ms)
+  Rendered drawings/index.html.erb within layouts/application (9.7ms)
+  Rendered layouts/_head.html.erb (225.5ms)
+  Rendered layouts/_flash.html.erb (0.1ms)
+  Rendered layouts/_navbar.html.erb (2.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 246ms (Views: 243.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/bootstrap.min-214b6a757b8192e0b8dfec570a35cfd0.css?body=1" for ::1 at 2015-08-08 14:19:56 -0700
+
+
+Started GET "/assets/banner-77cc8bc547b0e75093ed70fff993e4c3.css?body=1" for ::1 at 2015-08-08 14:19:56 -0700
+
+
+Started GET "/assets/custom-136c8c3c030ff32f2472d52cd686da42.css?body=1" for ::1 at 2015-08-08 14:19:56 -0700
+
+
+Started GET "/assets/drawings-4cef2eb7a455bd805a013ddf0d497820.css?body=1" for ::1 at 2015-08-08 14:19:56 -0700
+
+
+Started GET "/assets/emails-069e88c06b889877799890854d7f4c40.css?body=1" for ::1 at 2015-08-08 14:19:56 -0700
+
+
+Started GET "/assets/layout/flash-ff4e156daecdcb89e7b968cfab79cff9.css?body=1" for ::1 at 2015-08-08 14:19:56 -0700
+
+
+Started GET "/assets/layout/footer-f536932ba9df3d4267c76eac72d384e0.css?body=1" for ::1 at 2015-08-08 14:19:56 -0700
+
+
+Started GET "/assets/navbar-0cbcee919aa95b058c59a505d602641c.css?body=1" for ::1 at 2015-08-08 14:19:56 -0700
+
+
+Started GET "/assets/pages-069e88c06b889877799890854d7f4c40.css?body=1" for ::1 at 2015-08-08 14:19:56 -0700
+
+
+Started GET "/assets/welcome-992f95451e004f4b7eb7e57634d9ffb1.css?body=1" for ::1 at 2015-08-08 14:19:56 -0700
+
+
+Started GET "/assets/application-eff6a1bbe1b34085cb090722d77145a6.css?body=1" for ::1 at 2015-08-08 14:19:56 -0700
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-08-08 14:19:56 -0700
+
+
+Started GET "/assets/jquery.turbolinks-051c63717f28dee8f54d3ecd892deff0.js?body=1" for ::1 at 2015-08-08 14:19:56 -0700
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-08-08 14:19:56 -0700
+
+
+Started GET "/assets/bootstrap.min-d8a45720a105ce3f0ed788e4a5fdd750.js?body=1" for ::1 at 2015-08-08 14:19:56 -0700
+
+
+Started GET "/assets/drawings-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-08-08 14:19:56 -0700
+
+
+Started GET "/assets/emails-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-08-08 14:19:56 -0700
+
+
+Started GET "/assets/global-modules/flash-c92326088e5d315d4e1c0d5cddab8a61.js?body=1" for ::1 at 2015-08-08 14:19:56 -0700
+
+
+Started GET "/assets/ie10-viewport-bug-workaround-cf19aad6e6bbbda1c547c691d1ef02aa.js?body=1" for ::1 at 2015-08-08 14:19:56 -0700
+
+
+Started GET "/assets/pages-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-08-08 14:19:56 -0700
+
+
+Started GET "/assets/query-5a507414cabdf617a2e7d15864ab56f6.js?body=1" for ::1 at 2015-08-08 14:19:56 -0700
+
+
+Started GET "/assets/script-e234f30bf90b4f33432c19959b7699cd.js?body=1" for ::1 at 2015-08-08 14:19:56 -0700
+
+
+Started GET "/assets/search-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-08-08 14:19:56 -0700
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-08-08 14:19:56 -0700
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-08-08 14:19:56 -0700
+
+
+Started GET "/assets/application-5242582676e80013f8593a72fc9b20c7.js?body=1" for ::1 at 2015-08-08 14:19:56 -0700
+
+
+Started GET "/assets/filaments.jpg" for ::1 at 2015-08-08 14:19:56 -0700
+
+
+Started GET "/" for ::1 at 2015-08-08 14:20:01 -0700
+Processing by WelcomeController#index as HTML
+  [1m[35mDrawing Load (0.5ms)[0m  SELECT  "drawings".* FROM "drawings"  ORDER BY "drawings"."id" DESC LIMIT 3
+  Rendered layouts/_banner.html.erb (1.1ms)
+  Rendered welcome/_popular.html.erb (0.9ms)
+  Rendered welcome/_popular.html.erb (0.3ms)
+  Rendered welcome/_popular.html.erb (0.4ms)
+  Rendered welcome/index.html.erb within layouts/application (8.1ms)
+  Rendered layouts/_head.html.erb (164.1ms)
+  Rendered layouts/_flash.html.erb (0.1ms)
+  Rendered layouts/_navbar.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 183ms (Views: 181.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/hero.jpg" for ::1 at 2015-08-08 14:20:01 -0700
+
+
+Started GET "/drawings?utf8=%E2%9C%93&1=&search=Chess" for ::1 at 2015-08-08 14:24:33 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by DrawingsController#index as HTML
+  Parameters: {"utf8"=>"✓", "1"=>"", "search"=>"Chess"}
+  [1m[35m (52.1ms)[0m  SELECT COUNT(*) FROM "drawings" WHERE (name like '%Chess%' )
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "drawings" WHERE (name like '%Chess%' )[0m
+  [1m[35mDrawing Load (0.7ms)[0m  SELECT  "drawings".* FROM "drawings" WHERE (name like '%Chess%' ) LIMIT 30 OFFSET 0
+  Rendered drawings/_listing.html.erb (1.5ms)
+  Rendered drawings/index.html.erb within layouts/application (85.4ms)
+  Rendered layouts/_head.html.erb (277.1ms)
+  Rendered layouts/_flash.html.erb (1.1ms)
+  Rendered layouts/_navbar.html.erb (8.6ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 396ms (Views: 328.1ms | ActiveRecord: 56.8ms)
+
+
+Started GET "/assets/bootstrap.min-214b6a757b8192e0b8dfec570a35cfd0.css?body=1" for ::1 at 2015-08-08 14:24:34 -0700
+
+
+Started GET "/assets/banner-77cc8bc547b0e75093ed70fff993e4c3.css?body=1" for ::1 at 2015-08-08 14:24:34 -0700
+
+
+Started GET "/assets/custom-136c8c3c030ff32f2472d52cd686da42.css?body=1" for ::1 at 2015-08-08 14:24:34 -0700
+
+
+Started GET "/assets/drawings-4cef2eb7a455bd805a013ddf0d497820.css?body=1" for ::1 at 2015-08-08 14:24:34 -0700
+
+
+Started GET "/assets/emails-069e88c06b889877799890854d7f4c40.css?body=1" for ::1 at 2015-08-08 14:24:34 -0700
+
+
+Started GET "/assets/layout/flash-ff4e156daecdcb89e7b968cfab79cff9.css?body=1" for ::1 at 2015-08-08 14:24:34 -0700
+
+
+Started GET "/assets/layout/footer-f536932ba9df3d4267c76eac72d384e0.css?body=1" for ::1 at 2015-08-08 14:24:34 -0700
+
+
+Started GET "/assets/navbar-0cbcee919aa95b058c59a505d602641c.css?body=1" for ::1 at 2015-08-08 14:24:34 -0700
+
+
+Started GET "/assets/pages-069e88c06b889877799890854d7f4c40.css?body=1" for ::1 at 2015-08-08 14:24:34 -0700
+
+
+Started GET "/assets/welcome-992f95451e004f4b7eb7e57634d9ffb1.css?body=1" for ::1 at 2015-08-08 14:24:34 -0700
+
+
+Started GET "/assets/application-eff6a1bbe1b34085cb090722d77145a6.css?body=1" for ::1 at 2015-08-08 14:24:34 -0700
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-08-08 14:24:34 -0700
+
+
+Started GET "/assets/jquery.turbolinks-051c63717f28dee8f54d3ecd892deff0.js?body=1" for ::1 at 2015-08-08 14:24:34 -0700
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-08-08 14:24:34 -0700
+
+
+Started GET "/assets/bootstrap.min-d8a45720a105ce3f0ed788e4a5fdd750.js?body=1" for ::1 at 2015-08-08 14:24:34 -0700
+
+
+Started GET "/assets/drawings-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-08-08 14:24:34 -0700
+
+
+Started GET "/assets/emails-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-08-08 14:24:34 -0700
+
+
+Started GET "/assets/global-modules/flash-c92326088e5d315d4e1c0d5cddab8a61.js?body=1" for ::1 at 2015-08-08 14:24:34 -0700
+
+
+Started GET "/assets/ie10-viewport-bug-workaround-cf19aad6e6bbbda1c547c691d1ef02aa.js?body=1" for ::1 at 2015-08-08 14:24:34 -0700
+
+
+Started GET "/assets/pages-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-08-08 14:24:34 -0700
+
+
+Started GET "/assets/query-5a507414cabdf617a2e7d15864ab56f6.js?body=1" for ::1 at 2015-08-08 14:24:34 -0700
+
+
+Started GET "/assets/script-e234f30bf90b4f33432c19959b7699cd.js?body=1" for ::1 at 2015-08-08 14:24:34 -0700
+
+
+Started GET "/assets/search-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-08-08 14:24:34 -0700
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-08-08 14:24:34 -0700
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-08-08 14:24:34 -0700
+
+
+Started GET "/assets/application-5242582676e80013f8593a72fc9b20c7.js?body=1" for ::1 at 2015-08-08 14:24:34 -0700
+
+
+Started GET "/assets/filaments.jpg" for ::1 at 2015-08-08 14:24:34 -0700
+
+
+Started GET "/" for ::1 at 2015-08-08 14:24:39 -0700
+Processing by WelcomeController#index as HTML
+  [1m[36mDrawing Load (0.8ms)[0m  [1mSELECT  "drawings".* FROM "drawings"  ORDER BY "drawings"."id" DESC LIMIT 3[0m
+  Rendered layouts/_banner.html.erb (1.7ms)
+  Rendered welcome/_popular.html.erb (1.4ms)
+  Rendered welcome/_popular.html.erb (0.3ms)
+  Rendered welcome/_popular.html.erb (0.3ms)
+  Rendered welcome/index.html.erb within layouts/application (10.7ms)
+  Rendered layouts/_head.html.erb (171.0ms)
+  Rendered layouts/_flash.html.erb (0.7ms)
+  Rendered layouts/_navbar.html.erb (50.5ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 248ms (Views: 245.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/hero.jpg" for ::1 at 2015-08-08 14:24:39 -0700
+
+
+Started GET "/drawings" for ::1 at 2015-08-08 14:24:41 -0700
+Processing by DrawingsController#index as HTML
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "drawings"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "drawings"[0m
+  [1m[35mDrawing Load (0.5ms)[0m  SELECT  "drawings".* FROM "drawings" LIMIT 15 OFFSET 0
+  Rendered drawings/_listing.html.erb (2.0ms)
+  Rendered drawings/_listing.html.erb (0.6ms)
+  Rendered drawings/index.html.erb within layouts/application (9.8ms)
+  Rendered layouts/_head.html.erb (161.6ms)
+  Rendered layouts/_flash.html.erb (0.1ms)
+  Rendered layouts/_navbar.html.erb (2.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 182ms (Views: 180.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for ::1 at 2015-08-08 14:24:44 -0700
+Processing by WelcomeController#index as HTML
+  [1m[36mDrawing Load (0.5ms)[0m  [1mSELECT  "drawings".* FROM "drawings"  ORDER BY "drawings"."id" DESC LIMIT 3[0m
+  Rendered layouts/_banner.html.erb (0.5ms)
+  Rendered welcome/_popular.html.erb (0.4ms)
+  Rendered welcome/_popular.html.erb (0.3ms)
+  Rendered welcome/_popular.html.erb (0.3ms)
+  Rendered welcome/index.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_head.html.erb (152.4ms)
+  Rendered layouts/_flash.html.erb (0.1ms)
+  Rendered layouts/_navbar.html.erb (2.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 171ms (Views: 168.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2015-08-08 14:26:25 -0700
+Processing by WelcomeController#index as HTML
+  [1m[35mDrawing Load (0.5ms)[0m  SELECT  "drawings".* FROM "drawings"  ORDER BY "drawings"."id" DESC LIMIT 3
+  Rendered layouts/_banner.html.erb (1.5ms)
+  Rendered welcome/_popular.html.erb (1.8ms)
+  Rendered welcome/_popular.html.erb (0.5ms)
+  Rendered welcome/_popular.html.erb (0.3ms)
+  Rendered welcome/index.html.erb within layouts/application (10.4ms)
+  Rendered layouts/_head.html.erb (216.8ms)
+  Rendered layouts/_flash.html.erb (0.1ms)
+  Rendered layouts/_navbar.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 236ms (Views: 234.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/bootstrap.min-214b6a757b8192e0b8dfec570a35cfd0.css?body=1" for ::1 at 2015-08-08 14:26:25 -0700
+
+
+Started GET "/assets/banner-77cc8bc547b0e75093ed70fff993e4c3.css?body=1" for ::1 at 2015-08-08 14:26:25 -0700
+
+
+Started GET "/assets/custom-c958106b6c944582cc6d735a5827690f.css?body=1" for ::1 at 2015-08-08 14:26:25 -0700
+
+
+Started GET "/assets/drawings-4cef2eb7a455bd805a013ddf0d497820.css?body=1" for ::1 at 2015-08-08 14:26:25 -0700
+
+
+Started GET "/assets/emails-069e88c06b889877799890854d7f4c40.css?body=1" for ::1 at 2015-08-08 14:26:25 -0700
+
+
+Started GET "/assets/layout/footer-f536932ba9df3d4267c76eac72d384e0.css?body=1" for ::1 at 2015-08-08 14:26:25 -0700
+
+
+Started GET "/assets/layout/flash-ff4e156daecdcb89e7b968cfab79cff9.css?body=1" for ::1 at 2015-08-08 14:26:25 -0700
+
+
+Started GET "/assets/navbar-0cbcee919aa95b058c59a505d602641c.css?body=1" for ::1 at 2015-08-08 14:26:25 -0700
+
+
+Started GET "/assets/pages-069e88c06b889877799890854d7f4c40.css?body=1" for ::1 at 2015-08-08 14:26:25 -0700
+
+
+Started GET "/assets/welcome-992f95451e004f4b7eb7e57634d9ffb1.css?body=1" for ::1 at 2015-08-08 14:26:25 -0700
+
+
+Started GET "/assets/application-7fefe013ff799d19dfaa968e7c9c6ffb.css?body=1" for ::1 at 2015-08-08 14:26:25 -0700
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-08-08 14:26:25 -0700
+
+
+Started GET "/assets/jquery.turbolinks-051c63717f28dee8f54d3ecd892deff0.js?body=1" for ::1 at 2015-08-08 14:26:25 -0700
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-08-08 14:26:25 -0700
+
+
+Started GET "/assets/bootstrap.min-d8a45720a105ce3f0ed788e4a5fdd750.js?body=1" for ::1 at 2015-08-08 14:26:25 -0700
+
+
+Started GET "/assets/drawings-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-08-08 14:26:25 -0700
+
+
+Started GET "/assets/emails-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-08-08 14:26:25 -0700
+
+
+Started GET "/assets/global-modules/flash-c92326088e5d315d4e1c0d5cddab8a61.js?body=1" for ::1 at 2015-08-08 14:26:25 -0700
+
+
+Started GET "/assets/ie10-viewport-bug-workaround-cf19aad6e6bbbda1c547c691d1ef02aa.js?body=1" for ::1 at 2015-08-08 14:26:25 -0700
+
+
+Started GET "/assets/pages-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-08-08 14:26:25 -0700
+
+
+Started GET "/assets/query-5a507414cabdf617a2e7d15864ab56f6.js?body=1" for ::1 at 2015-08-08 14:26:25 -0700
+
+
+Started GET "/assets/script-e234f30bf90b4f33432c19959b7699cd.js?body=1" for ::1 at 2015-08-08 14:26:25 -0700
+
+
+Started GET "/assets/search-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-08-08 14:26:25 -0700
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-08-08 14:26:25 -0700
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-08-08 14:26:25 -0700
+
+
+Started GET "/assets/application-5242582676e80013f8593a72fc9b20c7.js?body=1" for ::1 at 2015-08-08 14:26:25 -0700
+
+
+Started GET "/assets/hero.jpg" for ::1 at 2015-08-08 14:26:25 -0700
+
+
+Started GET "/drawings" for ::1 at 2015-08-08 14:26:41 -0700
+Processing by DrawingsController#index as HTML
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "drawings"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "drawings"
+  [1m[36mDrawing Load (0.3ms)[0m  [1mSELECT  "drawings".* FROM "drawings" LIMIT 15 OFFSET 0[0m
+  Rendered drawings/_listing.html.erb (1.3ms)
+  Rendered drawings/_listing.html.erb (0.6ms)
+  Rendered drawings/index.html.erb within layouts/application (7.2ms)
+  Rendered layouts/_head.html.erb (161.5ms)
+  Rendered layouts/_flash.html.erb (0.1ms)
+  Rendered layouts/_navbar.html.erb (2.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 179ms (Views: 177.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/filaments.jpg" for ::1 at 2015-08-08 14:26:42 -0700
+
+
+Started GET "/" for ::1 at 2015-08-08 14:27:08 -0700
+Processing by WelcomeController#index as HTML
+  [1m[35mDrawing Load (0.5ms)[0m  SELECT  "drawings".* FROM "drawings"  ORDER BY "drawings"."id" DESC LIMIT 3
+  Rendered layouts/_banner.html.erb (0.7ms)
+  Rendered welcome/_popular.html.erb (0.7ms)
+  Rendered welcome/_popular.html.erb (0.4ms)
+  Rendered welcome/_popular.html.erb (0.5ms)
+  Rendered welcome/index.html.erb within layouts/application (7.7ms)
+  Rendered layouts/_head.html.erb (154.9ms)
+  Rendered layouts/_flash.html.erb (0.1ms)
+  Rendered layouts/_navbar.html.erb (2.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 174ms (Views: 172.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2015-08-08 14:30:50 -0700
+Processing by WelcomeController#index as HTML
+  [1m[36mDrawing Load (0.6ms)[0m  [1mSELECT  "drawings".* FROM "drawings"  ORDER BY "drawings"."id" DESC LIMIT 3[0m
+  Rendered layouts/_banner.html.erb (0.6ms)
+  Rendered welcome/_popular.html.erb (1.2ms)
+  Rendered welcome/_popular.html.erb (0.3ms)
+  Rendered welcome/_popular.html.erb (0.3ms)
+  Rendered welcome/index.html.erb within layouts/application (7.5ms)
+  Rendered layouts/_head.html.erb (162.0ms)
+  Rendered layouts/_flash.html.erb (0.1ms)
+  Rendered layouts/_navbar.html.erb (2.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 180ms (Views: 177.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/bootstrap.min-214b6a757b8192e0b8dfec570a35cfd0.css?body=1" for ::1 at 2015-08-08 14:30:50 -0700
+
+
+Started GET "/assets/banner-77cc8bc547b0e75093ed70fff993e4c3.css?body=1" for ::1 at 2015-08-08 14:30:50 -0700
+
+
+Started GET "/assets/drawings-4cef2eb7a455bd805a013ddf0d497820.css?body=1" for ::1 at 2015-08-08 14:30:50 -0700
+
+
+Started GET "/assets/custom-c958106b6c944582cc6d735a5827690f.css?body=1" for ::1 at 2015-08-08 14:30:50 -0700
+
+
+Started GET "/assets/emails-069e88c06b889877799890854d7f4c40.css?body=1" for ::1 at 2015-08-08 14:30:50 -0700
+
+
+Started GET "/assets/layout/flash-ff4e156daecdcb89e7b968cfab79cff9.css?body=1" for ::1 at 2015-08-08 14:30:50 -0700
+
+
+Started GET "/assets/layout/footer-f536932ba9df3d4267c76eac72d384e0.css?body=1" for ::1 at 2015-08-08 14:30:50 -0700
+
+
+Started GET "/assets/navbar-0cbcee919aa95b058c59a505d602641c.css?body=1" for ::1 at 2015-08-08 14:30:50 -0700
+
+
+Started GET "/assets/pages-069e88c06b889877799890854d7f4c40.css?body=1" for ::1 at 2015-08-08 14:30:50 -0700
+
+
+Started GET "/assets/welcome-992f95451e004f4b7eb7e57634d9ffb1.css?body=1" for ::1 at 2015-08-08 14:30:50 -0700
+
+
+Started GET "/assets/application-7fefe013ff799d19dfaa968e7c9c6ffb.css?body=1" for ::1 at 2015-08-08 14:30:50 -0700
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-08-08 14:30:50 -0700
+
+
+Started GET "/assets/jquery.turbolinks-051c63717f28dee8f54d3ecd892deff0.js?body=1" for ::1 at 2015-08-08 14:30:50 -0700
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-08-08 14:30:50 -0700
+
+
+Started GET "/assets/bootstrap.min-d8a45720a105ce3f0ed788e4a5fdd750.js?body=1" for ::1 at 2015-08-08 14:30:50 -0700
+
+
+Started GET "/assets/drawings-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-08-08 14:30:50 -0700
+
+
+Started GET "/assets/script-e234f30bf90b4f33432c19959b7699cd.js?body=1" for ::1 at 2015-08-08 14:30:50 -0700
+
+
+Started GET "/assets/global-modules/flash-c92326088e5d315d4e1c0d5cddab8a61.js?body=1" for ::1 at 2015-08-08 14:30:50 -0700
+
+
+Started GET "/assets/ie10-viewport-bug-workaround-cf19aad6e6bbbda1c547c691d1ef02aa.js?body=1" for ::1 at 2015-08-08 14:30:50 -0700
+
+
+Started GET "/assets/pages-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-08-08 14:30:50 -0700
+
+
+Started GET "/assets/query-5a507414cabdf617a2e7d15864ab56f6.js?body=1" for ::1 at 2015-08-08 14:30:50 -0700
+
+
+Started GET "/assets/emails-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-08-08 14:30:50 -0700
+
+
+Started GET "/assets/search-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-08-08 14:30:50 -0700
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-08-08 14:30:50 -0700
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-08-08 14:30:50 -0700
+
+
+Started GET "/assets/application-5242582676e80013f8593a72fc9b20c7.js?body=1" for ::1 at 2015-08-08 14:30:50 -0700
+
+
+Started GET "/assets/hero.jpg" for ::1 at 2015-08-08 14:30:50 -0700
+
+
+Started GET "/" for ::1 at 2015-08-08 14:32:15 -0700
+Processing by WelcomeController#index as HTML
+  [1m[35mDrawing Load (0.7ms)[0m  SELECT  "drawings".* FROM "drawings"  ORDER BY "drawings"."id" DESC LIMIT 3
+  Rendered layouts/_banner.html.erb (0.6ms)
+  Rendered welcome/_popular.html.erb (1.1ms)
+  Rendered welcome/_popular.html.erb (0.4ms)
+  Rendered welcome/_popular.html.erb (0.3ms)
+  Rendered welcome/index.html.erb within layouts/application (7.7ms)
+  Rendered layouts/_head.html.erb (163.0ms)
+  Rendered layouts/_flash.html.erb (0.1ms)
+  Rendered layouts/_navbar.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 181ms (Views: 178.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/bootstrap.min-214b6a757b8192e0b8dfec570a35cfd0.css?body=1" for ::1 at 2015-08-08 14:32:15 -0700
+
+
+Started GET "/assets/banner-77cc8bc547b0e75093ed70fff993e4c3.css?body=1" for ::1 at 2015-08-08 14:32:15 -0700
+
+
+Started GET "/assets/drawings-4cef2eb7a455bd805a013ddf0d497820.css?body=1" for ::1 at 2015-08-08 14:32:15 -0700
+
+
+Started GET "/assets/emails-069e88c06b889877799890854d7f4c40.css?body=1" for ::1 at 2015-08-08 14:32:15 -0700
+
+
+Started GET "/assets/custom-c958106b6c944582cc6d735a5827690f.css?body=1" for ::1 at 2015-08-08 14:32:15 -0700
+
+
+Started GET "/assets/layout/flash-ff4e156daecdcb89e7b968cfab79cff9.css?body=1" for ::1 at 2015-08-08 14:32:15 -0700
+
+
+Started GET "/assets/navbar-0cbcee919aa95b058c59a505d602641c.css?body=1" for ::1 at 2015-08-08 14:32:15 -0700
+
+
+Started GET "/assets/layout/footer-f536932ba9df3d4267c76eac72d384e0.css?body=1" for ::1 at 2015-08-08 14:32:15 -0700
+
+
+Started GET "/assets/pages-069e88c06b889877799890854d7f4c40.css?body=1" for ::1 at 2015-08-08 14:32:15 -0700
+
+
+Started GET "/assets/welcome-992f95451e004f4b7eb7e57634d9ffb1.css?body=1" for ::1 at 2015-08-08 14:32:15 -0700
+
+
+Started GET "/assets/application-7fefe013ff799d19dfaa968e7c9c6ffb.css?body=1" for ::1 at 2015-08-08 14:32:15 -0700
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-08-08 14:32:15 -0700
+
+
+Started GET "/assets/jquery.turbolinks-051c63717f28dee8f54d3ecd892deff0.js?body=1" for ::1 at 2015-08-08 14:32:15 -0700
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-08-08 14:32:15 -0700
+
+
+Started GET "/assets/bootstrap.min-d8a45720a105ce3f0ed788e4a5fdd750.js?body=1" for ::1 at 2015-08-08 14:32:15 -0700
+
+
+Started GET "/assets/drawings-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-08-08 14:32:15 -0700
+
+
+Started GET "/assets/emails-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-08-08 14:32:15 -0700
+
+
+Started GET "/assets/global-modules/flash-c92326088e5d315d4e1c0d5cddab8a61.js?body=1" for ::1 at 2015-08-08 14:32:15 -0700
+
+
+Started GET "/assets/ie10-viewport-bug-workaround-cf19aad6e6bbbda1c547c691d1ef02aa.js?body=1" for ::1 at 2015-08-08 14:32:15 -0700
+
+
+Started GET "/assets/pages-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-08-08 14:32:15 -0700
+
+
+Started GET "/assets/query-5a507414cabdf617a2e7d15864ab56f6.js?body=1" for ::1 at 2015-08-08 14:32:15 -0700
+
+
+Started GET "/assets/script-e234f30bf90b4f33432c19959b7699cd.js?body=1" for ::1 at 2015-08-08 14:32:15 -0700
+
+
+Started GET "/assets/search-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-08-08 14:32:15 -0700
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-08-08 14:32:15 -0700
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-08-08 14:32:15 -0700
+
+
+Started GET "/assets/application-5242582676e80013f8593a72fc9b20c7.js?body=1" for ::1 at 2015-08-08 14:32:15 -0700
+
+
+Started GET "/assets/hero.jpg" for ::1 at 2015-08-08 14:32:16 -0700
