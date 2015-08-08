@@ -5,6 +5,9 @@
       <h2> Today's Popular 3d Models </h2>
     </div>
     <div class="row">
+      <div class="col-md-15">
+        L
+      </div>
       <% if @trending.empty? %> 
         <p> No Trending Items Today </p>
       <% else %>
@@ -12,6 +15,9 @@
           <%= render 'popular', drawing: item %>
         <% end %> 
       <% end %>
+      <div class="col-md-15">
+        R
+      </div>
     </div>
   </div>
 </div>

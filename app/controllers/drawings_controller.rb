@@ -3,7 +3,7 @@ class DrawingsController < ApplicationController
   before_filter :authenticate_user!, :except => [:show, :index]
 
   def index
-    @drawings = Drawing.search(params[:page])
+    @drawings = Drawing.all.paginate(page: params[:page], per_page: 16)
     if params[:search]
       @drawings = Drawing.where("name like ? ", "%#{params[:search]}%")
           .page(params[:page])
