@@ -4,20 +4,8 @@
     <div class="row ">
       <h2> Today's Popular 3d Models </h2>
     </div>
-    <div class="row">
-      <div class="col-md-15">
-        L
-      </div>
-      <% if @trending.empty? %> 
-        <p> No Trending Items Today </p>
-      <% else %>
-        <% @trending.each do |item| %>
-          <%= render 'popular', drawing: item %>
-        <% end %> 
-      <% end %>
-      <div class="col-md-15">
-        R
-      </div>
+    <div class="row" id="trending">
+      <%= render 'popular'%>
     </div>
   </div>
 </div>

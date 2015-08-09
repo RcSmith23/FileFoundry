@@ -19,9 +19,24 @@
 //
 
 $(function(){
-$("div.design-background-wrapper").hover(function() {
-  $( this ).find(".details").fadeIn(400);
-}, function() {
-  $( this ).find(".details").fadeOut(250);
+  $("div.design-background-wrapper").hover(function() {
+    $( this ).find(".details").fadeIn(400);
+  }, function() {
+    $( this ).find(".details").fadeOut(250);
+  });
+
+  $("#trending").on('click', '.tpage', function(e) {
+    e.preventDefault();
+    $.getScript(this.href);
+    return false;
+  });
+
 });
-});
+
+/*
+ *  Old version for ajax on click
+  $(".col-md-15 a").click(function() {
+    $.getScript(this.href);
+    return false;
+  });
+*/
