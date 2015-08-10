@@ -6,6 +6,8 @@
 @import "navbar";
 @import "welcome";
 @import "drawings";
+@import "pages";
+@import "layout/footer";
 // ---------------
 
 
@@ -110,7 +112,7 @@ body {
   color: black;
 }
 
-.design.container{
+.design .container{
 
   padding-top: 2em;
   padding-bottom:3em;
@@ -158,7 +160,7 @@ body {
   color: #ffffff;
   border-radius: 5px 5px 0em 0em;
   z-index: 200; 
-  border-bottom: 1px solid #ffffff;
+  //border-bottom: 1px solid #ffffff;
 }
 
 .design-label {
@@ -170,6 +172,7 @@ body {
   width: 260px;
   background-color: #3c3c3c;
   border-radius: 0em 0em 5px 5px; 
+  border-top: 1px solid #ffffff;
 }
 
 a {

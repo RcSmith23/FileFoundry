@@ -1,12 +1,9 @@
-<div class="jumbotron">
+<div class="drawings-search" id="home-search">
   <div class="container">
-    <div id="jumbo-search">
-      <%= form_tag(drawings_path, :method => "get", id: "jumbo-search-form") do %> 
-        <%= hidden_field_tag 1, params[:page] %>
-        <%= text_field_tag :search, params[:search], placeholder: "search...",
-            class: "biginput"  %>
-        <div id="jumbo-search-ouput"></div>
-      <% end %>
-    </div>
+    <%= form_tag(drawings_path, :method => "get", class: "drawings-search-form") do %> 
+      <%= text_field_tag :search, params[:search], placeholder: "search...",
+          class: "biginput"  %>
+      <div id="jumbo-search-ouput"></div>
+    <% end %>
   </div>
 </div>

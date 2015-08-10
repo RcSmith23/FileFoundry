@@ -8,5 +8,4 @@ Rails.application.routes.draw do
   resources :emails
 
   get '/about' => 'pages#about'
-  get '/contact' => 'pages#contact'
 end

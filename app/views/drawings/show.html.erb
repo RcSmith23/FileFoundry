@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container drawing-show">
   <div class="row">
     <div class="col-md-12">
       <h2><%= @drawing.name %></h2>
@@ -13,8 +13,7 @@
       <h3>Description</h3>
       <%= @drawing.description %>
       <hr>
-      <h3>Where to find</h3>
-      <%= link_to "Get this file", "#{@drawing.origin}", :class => "btn btn-default" %>
+      <%= link_to "Get this model", "#{@drawing.origin}", :class => "btn btn-default" %>
     </div>
   </div>
   <br><br>

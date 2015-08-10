@@ -3,29 +3,26 @@
  * and auto search functionality
  **************************/
 
-.jumbotron{
-  min-height: 400px;
-  margin-bottom: 0px;
+#home-search{
   background-image: url(/assets/hero.jpg);
+}
+
+.drawings-search {
+  min-height: 400px;
+  background-image: url(/assets/filaments.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+
 }
 
-#jumbo-search {
-  color: #fff;
-  margin-top: 125px;
-
-  form {
-    padding: 15px;
-    width: 630px;
-
-    background-color: rgba(0, 0, 0, 0.6);
-    margin-right: auto;
-    margin-left: auto;
-    /*border: 1px solid #fff;*/
-    /* overflow: auto; */
-  }
+.drawings-search-form {
+  padding: 15px;
+  width: 630px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  background-color: rgba(0,0,0,0.6); 
 
   .biginput {
     width: 600px;
@@ -33,16 +30,12 @@
     padding: 0 5px;
     outline: none;
 
-    border: 0;
-    border-radius: 5px;
-
-    color: #858585;
-    background-color: #fff;
+    border-color: transparent;
+    border-radius: 2px;
   }
 
   .biginput:focus {
     color: #000;
-
     outline-color: transparent;
     outline-style: none;
   }

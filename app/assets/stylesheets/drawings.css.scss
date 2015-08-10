@@ -1,27 +1,8 @@
 // Place all the styles related to the drawings controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-#drawings-search-form {
-  padding: 15px;
-  width: 630px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 150px;
-  background-color: rgba(0,0,0,0.6); 
-  .biginput {
-    width: 600px;
-    height: 30px;
-    padding: 0 5px;
-    outline: none;
-    
-     }
-}
-#drawings-search {
-  min-height: 400px;
-  margin-bottom: 30px;
-  background-image: url(/assets/filaments.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
 
+
+.drawing-show {
+  margin-top: 60px;
 }
