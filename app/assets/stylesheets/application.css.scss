@@ -1,9 +1,12 @@
-// ...
+
+// --- Imports ---
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "banner";
 @import "navbar";
-// ...
+@import "welcome";
+@import "drawings";
+// ---------------
 
 
 .navbar-nav > li > a.navbar-btn {

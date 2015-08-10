@@ -1,11 +1,13 @@
 <div class="col-md-15">
-  <%= link_to "Prev", root_path(:page => @trending.current_page-1), class: "tpage"%>
+  <%= link_to root_path(:page => @trending.current_page-1), class: "tpage" do%>
+    <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+  <% end %>
 </div>
 <% if @trending.empty? %>
   <p> No trending items today </p>
 <% else %>
   <% @trending.each do |drawing| %>
-    <div class="col-md-3 ">
+    <div class="col-md-3">
       <div class="design-background-wrapper">
         <%= link_to drawing_path(drawing) do %>
           <%= content_tag :span, "Details will go here", :class => "details" %>
@@ -17,5 +19,7 @@
   <% end %>
 <% end %>
 <div class="col-md-15">
-  <%= link_to "Next", root_path(:page => @trending.current_page+1), class: "tpage"%>
+  <%= link_to root_path(:page => @trending.current_page+1), class: "tpage" do%>
+    <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+  <% end %>
 </div>
