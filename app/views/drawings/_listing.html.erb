@@ -5,7 +5,10 @@
         <%= content_tag :span, "Details will be here",:class=>"details" %>
         <%= image_tag drawing.res, :alt => drawing.name, :class=>"img-rounded" %>
       <% end %>
-      <span class="design-label"><%= link_to drawing.name, drawing_path(drawing) %></span>
+      <div class="design-label"> 
+        <span class="design-name"><%= drawing.name%></span> 
+        <span class="design-rating">3</span> 
+      </div>
     </div>
   </div>
 <% end %>

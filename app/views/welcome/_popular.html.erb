@@ -10,10 +10,13 @@
     <div class="col-md-3">
       <div class="design-background-wrapper">
         <%= link_to drawing_path(drawing) do %>
-          <%= content_tag :span, "Details will go here", :class => "details" %>
+          <%= content_tag :span, "Details will go here", :class => "details dname" %>
           <%= image_tag drawing.res, :alt => drawing.name, :class=>"img-rounded" %>
         <% end %>
-        <span class="design-label"><%= link_to drawing.name, drawing_path(drawing) %></span> 
+        <div class="design-label"> 
+          <span class="design-name"><%= drawing.name%></span> 
+          <span class="design-rating">3</span> 
+        </div>
       </div>
     </div>
   <% end %>
