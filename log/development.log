@@ -33724,3 +33724,786 @@ Processing by WelcomeController#index as HTML
   Rendered layouts/_navbar.html.erb (1.9ms)
   Rendered layouts/_footer.html.erb (0.2ms)
 Completed 200 OK in 154ms (Views: 152.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for ::1 at 2015-08-12 04:07:48 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_banner.html.erb (1.0ms)
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "drawings"
+  [1m[36mDrawing Load (0.5ms)[0m  [1mSELECT  "drawings".* FROM "drawings" LIMIT 3 OFFSET 0[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "drawings"
+  Rendered welcome/_popular.html.erb (35.4ms)
+  Rendered welcome/index.html.erb within layouts/application (43.7ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/ryan/Workspace/FileFoundry/app/assets/stylesheets/banner.css.scss to /home/ryan/Workspace/FileFoundry/app/assets/stylesheets/banner.scss. (called from _app_views_layouts__head_html_erb___1354572189919118134_40687280 at /home/ryan/Workspace/FileFoundry/app/views/layouts/_head.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/ryan/Workspace/FileFoundry/app/assets/stylesheets/navbar.css.scss to /home/ryan/Workspace/FileFoundry/app/assets/stylesheets/navbar.scss. (called from _app_views_layouts__head_html_erb___1354572189919118134_40687280 at /home/ryan/Workspace/FileFoundry/app/views/layouts/_head.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/ryan/Workspace/FileFoundry/app/assets/stylesheets/welcome.css.scss to /home/ryan/Workspace/FileFoundry/app/assets/stylesheets/welcome.scss. (called from _app_views_layouts__head_html_erb___1354572189919118134_40687280 at /home/ryan/Workspace/FileFoundry/app/views/layouts/_head.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/ryan/Workspace/FileFoundry/app/assets/stylesheets/drawings.css.scss to /home/ryan/Workspace/FileFoundry/app/assets/stylesheets/drawings.scss. (called from _app_views_layouts__head_html_erb___1354572189919118134_40687280 at /home/ryan/Workspace/FileFoundry/app/views/layouts/_head.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/ryan/Workspace/FileFoundry/app/assets/stylesheets/pages.css.scss to /home/ryan/Workspace/FileFoundry/app/assets/stylesheets/pages.scss. (called from _app_views_layouts__head_html_erb___1354572189919118134_40687280 at /home/ryan/Workspace/FileFoundry/app/views/layouts/_head.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/ryan/Workspace/FileFoundry/app/assets/stylesheets/layout/footer.css.scss to /home/ryan/Workspace/FileFoundry/app/assets/stylesheets/layout/footer.scss. (called from _app_views_layouts__head_html_erb___1354572189919118134_40687280 at /home/ryan/Workspace/FileFoundry/app/views/layouts/_head.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/ryan/Workspace/FileFoundry/app/assets/stylesheets/banner.css.scss to /home/ryan/Workspace/FileFoundry/app/assets/stylesheets/banner.scss. (called from _app_views_layouts__head_html_erb___1354572189919118134_40687280 at /home/ryan/Workspace/FileFoundry/app/views/layouts/_head.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/ryan/Workspace/FileFoundry/app/assets/stylesheets/navbar.css.scss to /home/ryan/Workspace/FileFoundry/app/assets/stylesheets/navbar.scss. (called from _app_views_layouts__head_html_erb___1354572189919118134_40687280 at /home/ryan/Workspace/FileFoundry/app/views/layouts/_head.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/ryan/Workspace/FileFoundry/app/assets/stylesheets/welcome.css.scss to /home/ryan/Workspace/FileFoundry/app/assets/stylesheets/welcome.scss. (called from _app_views_layouts__head_html_erb___1354572189919118134_40687280 at /home/ryan/Workspace/FileFoundry/app/views/layouts/_head.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/ryan/Workspace/FileFoundry/app/assets/stylesheets/drawings.css.scss to /home/ryan/Workspace/FileFoundry/app/assets/stylesheets/drawings.scss. (called from _app_views_layouts__head_html_erb___1354572189919118134_40687280 at /home/ryan/Workspace/FileFoundry/app/views/layouts/_head.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/ryan/Workspace/FileFoundry/app/assets/stylesheets/pages.css.scss to /home/ryan/Workspace/FileFoundry/app/assets/stylesheets/pages.scss. (called from _app_views_layouts__head_html_erb___1354572189919118134_40687280 at /home/ryan/Workspace/FileFoundry/app/views/layouts/_head.html.erb:10)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/ryan/Workspace/FileFoundry/app/assets/stylesheets/layout/footer.css.scss to /home/ryan/Workspace/FileFoundry/app/assets/stylesheets/layout/footer.scss. (called from _app_views_layouts__head_html_erb___1354572189919118134_40687280 at /home/ryan/Workspace/FileFoundry/app/views/layouts/_head.html.erb:10)
+  Rendered layouts/_head.html.erb (2392.5ms)
+  Rendered layouts/_flash.html.erb (0.5ms)
+  Rendered layouts/_navbar.html.erb (6.7ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 2519ms (Views: 2474.4ms | ActiveRecord: 8.0ms)
+
+
+Started GET "/assets/application-649c193846542e73f6f90f72ff6dccc5.css?body=1" for ::1 at 2015-08-12 04:07:50 -0700
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-08-12 04:07:50 -0700
+
+
+Started GET "/assets/jquery.turbolinks-051c63717f28dee8f54d3ecd892deff0.js?body=1" for ::1 at 2015-08-12 04:07:50 -0700
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-08-12 04:07:50 -0700
+
+
+Started GET "/assets/bootstrap/affix-31e34272e891aa4cf7c2ad5ba0cbd49f.js?body=1" for ::1 at 2015-08-12 04:07:51 -0700
+
+
+Started GET "/assets/bootstrap/alert-6434895e1510d8d57f4ffcb204a264b2.js?body=1" for ::1 at 2015-08-12 04:07:51 -0700
+
+
+Started GET "/assets/bootstrap/button-5b9b2013a085c560cf419824792d8112.js?body=1" for ::1 at 2015-08-12 04:07:51 -0700
+
+
+Started GET "/assets/bootstrap/carousel-656b28e3b40b8f076a5367d35c922ce5.js?body=1" for ::1 at 2015-08-12 04:07:51 -0700
+
+
+Started GET "/assets/bootstrap/collapse-3ecef8f681fba0301c0a73d88f25bdcb.js?body=1" for ::1 at 2015-08-12 04:07:51 -0700
+
+
+Started GET "/assets/bootstrap/dropdown-233d389dd49cd80ad6dbba9807090e0e.js?body=1" for ::1 at 2015-08-12 04:07:51 -0700
+
+
+Started GET "/assets/bootstrap/tab-4c6c439736b7796be77e032c3a3bbf82.js?body=1" for ::1 at 2015-08-12 04:07:51 -0700
+
+
+Started GET "/assets/bootstrap/transition-fab611c436c05686648bb19c1db1b8e5.js?body=1" for ::1 at 2015-08-12 04:07:51 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy-b4582d0e349ac4a20a0e7fb5059d8616.js?body=1" for ::1 at 2015-08-12 04:07:51 -0700
+
+
+Started GET "/assets/bootstrap/modal-90855a257b2f14a54956d403b73a0e26.js?body=1" for ::1 at 2015-08-12 04:07:51 -0700
+
+
+Started GET "/assets/bootstrap/tooltip-86ead4f2c47743987db2500760433564.js?body=1" for ::1 at 2015-08-12 04:07:51 -0700
+
+
+Started GET "/assets/bootstrap/popover-a11df332e2824c1da24b60f092a27191.js?body=1" for ::1 at 2015-08-12 04:07:51 -0700
+
+
+Started GET "/assets/bootstrap-sprockets-e280b6d25dc40126d49a94fb005c4e87.js?body=1" for ::1 at 2015-08-12 04:07:51 -0700
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-08-12 04:07:51 -0700
+
+
+Started GET "/assets/welcome-77e1ce7ae790c17f52bccbf0f81cae83.js?body=1" for ::1 at 2015-08-12 04:07:51 -0700
+
+
+Started GET "/assets/drawings-42c2accf40e96956e316e580426a7de0.js?body=1" for ::1 at 2015-08-12 04:07:51 -0700
+
+
+Started GET "/assets/application-96a2f1e9a20ac5f3add3c2120b76c763.js?body=1" for ::1 at 2015-08-12 04:07:51 -0700
+
+
+Started GET "/assets/hero.jpg" for ::1 at 2015-08-12 04:07:51 -0700
+
+
+Started GET "/assets/icomoon.ttf?21prc3" for ::1 at 2015-08-12 04:07:51 -0700
+
+
+Started GET "/" for ::1 at 2015-08-12 04:08:28 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_banner.html.erb (0.5ms)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "drawings"[0m
+  [1m[35mDrawing Load (0.3ms)[0m  SELECT  "drawings".* FROM "drawings" LIMIT 3 OFFSET 0
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "drawings"[0m
+  Rendered welcome/_popular.html.erb (7.0ms)
+  Rendered welcome/index.html.erb within layouts/application (9.9ms)
+  Rendered layouts/_head.html.erb (148.5ms)
+  Rendered layouts/_flash.html.erb (0.1ms)
+  Rendered layouts/_navbar.html.erb (2.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 168ms (Views: 166.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application-649c193846542e73f6f90f72ff6dccc5.css?body=1" for ::1 at 2015-08-12 04:08:28 -0700
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-08-12 04:08:28 -0700
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-08-12 04:08:28 -0700
+
+
+Started GET "/assets/jquery.turbolinks-051c63717f28dee8f54d3ecd892deff0.js?body=1" for ::1 at 2015-08-12 04:08:28 -0700
+
+
+Started GET "/assets/bootstrap/alert-6434895e1510d8d57f4ffcb204a264b2.js?body=1" for ::1 at 2015-08-12 04:08:28 -0700
+
+
+Started GET "/assets/bootstrap/button-5b9b2013a085c560cf419824792d8112.js?body=1" for ::1 at 2015-08-12 04:08:28 -0700
+
+
+Started GET "/assets/bootstrap/affix-31e34272e891aa4cf7c2ad5ba0cbd49f.js?body=1" for ::1 at 2015-08-12 04:08:28 -0700
+
+
+Started GET "/assets/bootstrap/carousel-656b28e3b40b8f076a5367d35c922ce5.js?body=1" for ::1 at 2015-08-12 04:08:28 -0700
+
+
+Started GET "/assets/bootstrap/collapse-3ecef8f681fba0301c0a73d88f25bdcb.js?body=1" for ::1 at 2015-08-12 04:08:28 -0700
+
+
+Started GET "/assets/bootstrap/dropdown-233d389dd49cd80ad6dbba9807090e0e.js?body=1" for ::1 at 2015-08-12 04:08:28 -0700
+
+
+Started GET "/assets/bootstrap/tab-4c6c439736b7796be77e032c3a3bbf82.js?body=1" for ::1 at 2015-08-12 04:08:28 -0700
+
+
+Started GET "/assets/bootstrap/transition-fab611c436c05686648bb19c1db1b8e5.js?body=1" for ::1 at 2015-08-12 04:08:28 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy-b4582d0e349ac4a20a0e7fb5059d8616.js?body=1" for ::1 at 2015-08-12 04:08:28 -0700
+
+
+Started GET "/assets/bootstrap/modal-90855a257b2f14a54956d403b73a0e26.js?body=1" for ::1 at 2015-08-12 04:08:28 -0700
+
+
+Started GET "/assets/bootstrap/tooltip-86ead4f2c47743987db2500760433564.js?body=1" for ::1 at 2015-08-12 04:08:28 -0700
+
+
+Started GET "/assets/bootstrap/popover-a11df332e2824c1da24b60f092a27191.js?body=1" for ::1 at 2015-08-12 04:08:28 -0700
+
+
+Started GET "/assets/bootstrap-sprockets-e280b6d25dc40126d49a94fb005c4e87.js?body=1" for ::1 at 2015-08-12 04:08:28 -0700
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-08-12 04:08:28 -0700
+
+
+Started GET "/assets/welcome-77e1ce7ae790c17f52bccbf0f81cae83.js?body=1" for ::1 at 2015-08-12 04:08:28 -0700
+
+
+Started GET "/assets/drawings-42c2accf40e96956e316e580426a7de0.js?body=1" for ::1 at 2015-08-12 04:08:28 -0700
+
+
+Started GET "/assets/application-96a2f1e9a20ac5f3add3c2120b76c763.js?body=1" for ::1 at 2015-08-12 04:08:28 -0700
+
+
+Started GET "/assets/hero.jpg" for ::1 at 2015-08-12 04:08:28 -0700
+
+
+Started GET "/" for ::1 at 2015-08-12 04:08:42 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_banner.html.erb (0.4ms)
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "drawings"
+  [1m[36mDrawing Load (0.3ms)[0m  [1mSELECT  "drawings".* FROM "drawings" LIMIT 3 OFFSET 0[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "drawings"
+  Rendered welcome/_popular.html.erb (5.6ms)
+  Rendered welcome/index.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_head.html.erb (154.3ms)
+  Rendered layouts/_flash.html.erb (0.1ms)
+  Rendered layouts/_navbar.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 173ms (Views: 171.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application-649c193846542e73f6f90f72ff6dccc5.css?body=1" for ::1 at 2015-08-12 04:08:42 -0700
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-08-12 04:08:42 -0700
+
+
+Started GET "/assets/jquery.turbolinks-051c63717f28dee8f54d3ecd892deff0.js?body=1" for ::1 at 2015-08-12 04:08:42 -0700
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-08-12 04:08:42 -0700
+
+
+Started GET "/assets/bootstrap/button-5b9b2013a085c560cf419824792d8112.js?body=1" for ::1 at 2015-08-12 04:08:42 -0700
+
+
+Started GET "/assets/bootstrap/affix-31e34272e891aa4cf7c2ad5ba0cbd49f.js?body=1" for ::1 at 2015-08-12 04:08:43 -0700
+
+
+Started GET "/assets/bootstrap/carousel-656b28e3b40b8f076a5367d35c922ce5.js?body=1" for ::1 at 2015-08-12 04:08:43 -0700
+
+
+Started GET "/assets/bootstrap/alert-6434895e1510d8d57f4ffcb204a264b2.js?body=1" for ::1 at 2015-08-12 04:08:43 -0700
+
+
+Started GET "/assets/bootstrap/collapse-3ecef8f681fba0301c0a73d88f25bdcb.js?body=1" for ::1 at 2015-08-12 04:08:43 -0700
+
+
+Started GET "/assets/bootstrap/dropdown-233d389dd49cd80ad6dbba9807090e0e.js?body=1" for ::1 at 2015-08-12 04:08:43 -0700
+
+
+Started GET "/assets/bootstrap/tab-4c6c439736b7796be77e032c3a3bbf82.js?body=1" for ::1 at 2015-08-12 04:08:43 -0700
+
+
+Started GET "/assets/bootstrap/transition-fab611c436c05686648bb19c1db1b8e5.js?body=1" for ::1 at 2015-08-12 04:08:43 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy-b4582d0e349ac4a20a0e7fb5059d8616.js?body=1" for ::1 at 2015-08-12 04:08:43 -0700
+
+
+Started GET "/assets/bootstrap/modal-90855a257b2f14a54956d403b73a0e26.js?body=1" for ::1 at 2015-08-12 04:08:43 -0700
+
+
+Started GET "/assets/bootstrap/tooltip-86ead4f2c47743987db2500760433564.js?body=1" for ::1 at 2015-08-12 04:08:43 -0700
+
+
+Started GET "/assets/bootstrap/popover-a11df332e2824c1da24b60f092a27191.js?body=1" for ::1 at 2015-08-12 04:08:43 -0700
+
+
+Started GET "/assets/bootstrap-sprockets-e280b6d25dc40126d49a94fb005c4e87.js?body=1" for ::1 at 2015-08-12 04:08:43 -0700
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-08-12 04:08:43 -0700
+
+
+Started GET "/assets/welcome-77e1ce7ae790c17f52bccbf0f81cae83.js?body=1" for ::1 at 2015-08-12 04:08:43 -0700
+
+
+Started GET "/assets/drawings-42c2accf40e96956e316e580426a7de0.js?body=1" for ::1 at 2015-08-12 04:08:43 -0700
+
+
+Started GET "/assets/application-96a2f1e9a20ac5f3add3c2120b76c763.js?body=1" for ::1 at 2015-08-12 04:08:43 -0700
+
+
+Started GET "/assets/hero.jpg" for ::1 at 2015-08-12 04:08:43 -0700
+
+
+Started GET "/" for ::1 at 2015-08-12 04:08:59 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_banner.html.erb (0.5ms)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "drawings"[0m
+  [1m[35mDrawing Load (0.4ms)[0m  SELECT  "drawings".* FROM "drawings" LIMIT 3 OFFSET 0
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "drawings"[0m
+  Rendered welcome/_popular.html.erb (6.8ms)
+  Rendered welcome/index.html.erb within layouts/application (9.7ms)
+  Rendered layouts/_head.html.erb (128.4ms)
+  Rendered layouts/_flash.html.erb (0.1ms)
+  Rendered layouts/_navbar.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 147ms (Views: 145.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application-649c193846542e73f6f90f72ff6dccc5.css?body=1" for ::1 at 2015-08-12 04:08:59 -0700
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-08-12 04:08:59 -0700
+
+
+Started GET "/assets/jquery.turbolinks-051c63717f28dee8f54d3ecd892deff0.js?body=1" for ::1 at 2015-08-12 04:08:59 -0700
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-08-12 04:08:59 -0700
+
+
+Started GET "/assets/bootstrap/affix-31e34272e891aa4cf7c2ad5ba0cbd49f.js?body=1" for ::1 at 2015-08-12 04:08:59 -0700
+
+
+Started GET "/assets/bootstrap/button-5b9b2013a085c560cf419824792d8112.js?body=1" for ::1 at 2015-08-12 04:08:59 -0700
+
+
+Started GET "/assets/bootstrap/alert-6434895e1510d8d57f4ffcb204a264b2.js?body=1" for ::1 at 2015-08-12 04:08:59 -0700
+
+
+Started GET "/assets/bootstrap/carousel-656b28e3b40b8f076a5367d35c922ce5.js?body=1" for ::1 at 2015-08-12 04:08:59 -0700
+
+
+Started GET "/assets/bootstrap/collapse-3ecef8f681fba0301c0a73d88f25bdcb.js?body=1" for ::1 at 2015-08-12 04:08:59 -0700
+
+
+Started GET "/assets/bootstrap/dropdown-233d389dd49cd80ad6dbba9807090e0e.js?body=1" for ::1 at 2015-08-12 04:08:59 -0700
+
+
+Started GET "/assets/bootstrap/tab-4c6c439736b7796be77e032c3a3bbf82.js?body=1" for ::1 at 2015-08-12 04:08:59 -0700
+
+
+Started GET "/assets/bootstrap/transition-fab611c436c05686648bb19c1db1b8e5.js?body=1" for ::1 at 2015-08-12 04:08:59 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy-b4582d0e349ac4a20a0e7fb5059d8616.js?body=1" for ::1 at 2015-08-12 04:08:59 -0700
+
+
+Started GET "/assets/bootstrap/modal-90855a257b2f14a54956d403b73a0e26.js?body=1" for ::1 at 2015-08-12 04:08:59 -0700
+
+
+Started GET "/assets/bootstrap/tooltip-86ead4f2c47743987db2500760433564.js?body=1" for ::1 at 2015-08-12 04:08:59 -0700
+
+
+Started GET "/assets/bootstrap/popover-a11df332e2824c1da24b60f092a27191.js?body=1" for ::1 at 2015-08-12 04:08:59 -0700
+
+
+Started GET "/assets/bootstrap-sprockets-e280b6d25dc40126d49a94fb005c4e87.js?body=1" for ::1 at 2015-08-12 04:08:59 -0700
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-08-12 04:08:59 -0700
+
+
+Started GET "/assets/welcome-77e1ce7ae790c17f52bccbf0f81cae83.js?body=1" for ::1 at 2015-08-12 04:08:59 -0700
+
+
+Started GET "/assets/drawings-42c2accf40e96956e316e580426a7de0.js?body=1" for ::1 at 2015-08-12 04:08:59 -0700
+
+
+Started GET "/assets/application-96a2f1e9a20ac5f3add3c2120b76c763.js?body=1" for ::1 at 2015-08-12 04:08:59 -0700
+
+
+Started GET "/assets/hero.jpg" for ::1 at 2015-08-12 04:08:59 -0700
+
+
+Started GET "/drawings" for ::1 at 2015-08-12 04:09:17 -0700
+Processing by DrawingsController#index as HTML
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "drawings"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "drawings"[0m
+  [1m[35mDrawing Load (0.7ms)[0m  SELECT  "drawings".* FROM "drawings" LIMIT 15 OFFSET 0
+  Rendered drawings/_listing.html.erb (1.8ms)
+  Rendered drawings/_listing.html.erb (0.9ms)
+  Rendered drawings/_listing.html.erb (0.9ms)
+  Rendered drawings/_listing.html.erb (0.6ms)
+  Rendered drawings/index.html.erb within layouts/application (128.1ms)
+  Rendered layouts/_head.html.erb (123.6ms)
+  Rendered layouts/_flash.html.erb (0.5ms)
+  Rendered layouts/_navbar.html.erb (3.1ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 266ms (Views: 263.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/filaments.jpg" for ::1 at 2015-08-12 04:09:17 -0700
+
+
+Started GET "/" for ::1 at 2015-08-12 04:09:20 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_banner.html.erb (0.9ms)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "drawings"[0m
+  [1m[35mDrawing Load (0.3ms)[0m  SELECT  "drawings".* FROM "drawings" LIMIT 3 OFFSET 0
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "drawings"[0m
+  Rendered welcome/_popular.html.erb (4.6ms)
+  Rendered welcome/index.html.erb within layouts/application (8.8ms)
+  Rendered layouts/_head.html.erb (137.8ms)
+  Rendered layouts/_flash.html.erb (0.1ms)
+  Rendered layouts/_navbar.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 157ms (Views: 155.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2015-08-12 04:09:33 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_banner.html.erb (0.5ms)
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "drawings"
+  [1m[36mDrawing Load (0.4ms)[0m  [1mSELECT  "drawings".* FROM "drawings" LIMIT 3 OFFSET 0[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "drawings"
+  Rendered welcome/_popular.html.erb (5.7ms)
+  Rendered welcome/index.html.erb within layouts/application (8.5ms)
+  Rendered layouts/_head.html.erb (146.9ms)
+  Rendered layouts/_flash.html.erb (0.1ms)
+  Rendered layouts/_navbar.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 165ms (Views: 163.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application-649c193846542e73f6f90f72ff6dccc5.css?body=1" for ::1 at 2015-08-12 04:09:33 -0700
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-08-12 04:09:33 -0700
+
+
+Started GET "/assets/jquery.turbolinks-051c63717f28dee8f54d3ecd892deff0.js?body=1" for ::1 at 2015-08-12 04:09:33 -0700
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-08-12 04:09:33 -0700
+
+
+Started GET "/assets/bootstrap/affix-31e34272e891aa4cf7c2ad5ba0cbd49f.js?body=1" for ::1 at 2015-08-12 04:09:33 -0700
+
+
+Started GET "/assets/bootstrap/alert-6434895e1510d8d57f4ffcb204a264b2.js?body=1" for ::1 at 2015-08-12 04:09:33 -0700
+
+
+Started GET "/assets/bootstrap/carousel-656b28e3b40b8f076a5367d35c922ce5.js?body=1" for ::1 at 2015-08-12 04:09:33 -0700
+
+
+Started GET "/assets/bootstrap/collapse-3ecef8f681fba0301c0a73d88f25bdcb.js?body=1" for ::1 at 2015-08-12 04:09:33 -0700
+
+
+Started GET "/assets/bootstrap/button-5b9b2013a085c560cf419824792d8112.js?body=1" for ::1 at 2015-08-12 04:09:33 -0700
+
+
+Started GET "/assets/bootstrap/dropdown-233d389dd49cd80ad6dbba9807090e0e.js?body=1" for ::1 at 2015-08-12 04:09:33 -0700
+
+
+Started GET "/assets/bootstrap/tab-4c6c439736b7796be77e032c3a3bbf82.js?body=1" for ::1 at 2015-08-12 04:09:33 -0700
+
+
+Started GET "/assets/bootstrap/transition-fab611c436c05686648bb19c1db1b8e5.js?body=1" for ::1 at 2015-08-12 04:09:33 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy-b4582d0e349ac4a20a0e7fb5059d8616.js?body=1" for ::1 at 2015-08-12 04:09:33 -0700
+
+
+Started GET "/assets/bootstrap/modal-90855a257b2f14a54956d403b73a0e26.js?body=1" for ::1 at 2015-08-12 04:09:33 -0700
+
+
+Started GET "/assets/bootstrap/tooltip-86ead4f2c47743987db2500760433564.js?body=1" for ::1 at 2015-08-12 04:09:33 -0700
+
+
+Started GET "/assets/bootstrap/popover-a11df332e2824c1da24b60f092a27191.js?body=1" for ::1 at 2015-08-12 04:09:33 -0700
+
+
+Started GET "/assets/bootstrap-sprockets-e280b6d25dc40126d49a94fb005c4e87.js?body=1" for ::1 at 2015-08-12 04:09:33 -0700
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-08-12 04:09:33 -0700
+
+
+Started GET "/assets/welcome-77e1ce7ae790c17f52bccbf0f81cae83.js?body=1" for ::1 at 2015-08-12 04:09:33 -0700
+
+
+Started GET "/assets/drawings-42c2accf40e96956e316e580426a7de0.js?body=1" for ::1 at 2015-08-12 04:09:33 -0700
+
+
+Started GET "/assets/application-96a2f1e9a20ac5f3add3c2120b76c763.js?body=1" for ::1 at 2015-08-12 04:09:33 -0700
+
+
+Started GET "/assets/hero.jpg" for ::1 at 2015-08-12 04:09:33 -0700
+
+
+Started GET "/" for ::1 at 2015-08-12 04:11:21 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_banner.html.erb (0.5ms)
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "drawings"[0m
+  [1m[35mDrawing Load (0.4ms)[0m  SELECT  "drawings".* FROM "drawings" LIMIT 3 OFFSET 0
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "drawings"[0m
+  Rendered welcome/_popular.html.erb (4.8ms)
+  Rendered welcome/index.html.erb within layouts/application (7.6ms)
+  Rendered layouts/_head.html.erb (132.3ms)
+  Rendered layouts/_flash.html.erb (0.1ms)
+  Rendered layouts/_navbar.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 150ms (Views: 148.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application-649c193846542e73f6f90f72ff6dccc5.css?body=1" for ::1 at 2015-08-12 04:11:21 -0700
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-08-12 04:11:21 -0700
+
+
+Started GET "/assets/jquery.turbolinks-051c63717f28dee8f54d3ecd892deff0.js?body=1" for ::1 at 2015-08-12 04:11:21 -0700
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-08-12 04:11:21 -0700
+
+
+Started GET "/assets/bootstrap/affix-31e34272e891aa4cf7c2ad5ba0cbd49f.js?body=1" for ::1 at 2015-08-12 04:11:21 -0700
+
+
+Started GET "/assets/bootstrap/collapse-3ecef8f681fba0301c0a73d88f25bdcb.js?body=1" for ::1 at 2015-08-12 04:11:21 -0700
+
+
+Started GET "/assets/bootstrap/button-5b9b2013a085c560cf419824792d8112.js?body=1" for ::1 at 2015-08-12 04:11:21 -0700
+
+
+Started GET "/assets/bootstrap/dropdown-233d389dd49cd80ad6dbba9807090e0e.js?body=1" for ::1 at 2015-08-12 04:11:21 -0700
+
+
+Started GET "/assets/bootstrap/carousel-656b28e3b40b8f076a5367d35c922ce5.js?body=1" for ::1 at 2015-08-12 04:11:21 -0700
+
+
+Started GET "/assets/bootstrap/alert-6434895e1510d8d57f4ffcb204a264b2.js?body=1" for ::1 at 2015-08-12 04:11:21 -0700
+
+
+Started GET "/assets/bootstrap/tab-4c6c439736b7796be77e032c3a3bbf82.js?body=1" for ::1 at 2015-08-12 04:11:21 -0700
+
+
+Started GET "/assets/bootstrap/transition-fab611c436c05686648bb19c1db1b8e5.js?body=1" for ::1 at 2015-08-12 04:11:21 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy-b4582d0e349ac4a20a0e7fb5059d8616.js?body=1" for ::1 at 2015-08-12 04:11:21 -0700
+
+
+Started GET "/assets/bootstrap/modal-90855a257b2f14a54956d403b73a0e26.js?body=1" for ::1 at 2015-08-12 04:11:21 -0700
+
+
+Started GET "/assets/bootstrap/tooltip-86ead4f2c47743987db2500760433564.js?body=1" for ::1 at 2015-08-12 04:11:21 -0700
+
+
+Started GET "/assets/bootstrap/popover-a11df332e2824c1da24b60f092a27191.js?body=1" for ::1 at 2015-08-12 04:11:21 -0700
+
+
+Started GET "/assets/bootstrap-sprockets-e280b6d25dc40126d49a94fb005c4e87.js?body=1" for ::1 at 2015-08-12 04:11:21 -0700
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-08-12 04:11:21 -0700
+
+
+Started GET "/assets/application-96a2f1e9a20ac5f3add3c2120b76c763.js?body=1" for ::1 at 2015-08-12 04:11:21 -0700
+
+
+Started GET "/assets/drawings-42c2accf40e96956e316e580426a7de0.js?body=1" for ::1 at 2015-08-12 04:11:21 -0700
+
+
+Started GET "/assets/welcome-77e1ce7ae790c17f52bccbf0f81cae83.js?body=1" for ::1 at 2015-08-12 04:11:21 -0700
+
+
+Started GET "/assets/hero.jpg" for ::1 at 2015-08-12 04:11:22 -0700
+
+
+Started GET "/" for ::1 at 2015-08-12 04:11:36 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_banner.html.erb (0.5ms)
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "drawings"
+  [1m[36mDrawing Load (0.4ms)[0m  [1mSELECT  "drawings".* FROM "drawings" LIMIT 3 OFFSET 0[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "drawings"
+  Rendered welcome/_popular.html.erb (7.7ms)
+  Rendered welcome/index.html.erb within layouts/application (10.6ms)
+  Rendered layouts/_head.html.erb (148.2ms)
+  Rendered layouts/_flash.html.erb (0.1ms)
+  Rendered layouts/_navbar.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 168ms (Views: 166.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application-649c193846542e73f6f90f72ff6dccc5.css?body=1" for ::1 at 2015-08-12 04:11:36 -0700
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-08-12 04:11:36 -0700
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-08-12 04:11:36 -0700
+
+
+Started GET "/assets/jquery.turbolinks-051c63717f28dee8f54d3ecd892deff0.js?body=1" for ::1 at 2015-08-12 04:11:36 -0700
+
+
+Started GET "/assets/bootstrap/affix-31e34272e891aa4cf7c2ad5ba0cbd49f.js?body=1" for ::1 at 2015-08-12 04:11:36 -0700
+
+
+Started GET "/assets/bootstrap/button-5b9b2013a085c560cf419824792d8112.js?body=1" for ::1 at 2015-08-12 04:11:36 -0700
+
+
+Started GET "/assets/bootstrap/alert-6434895e1510d8d57f4ffcb204a264b2.js?body=1" for ::1 at 2015-08-12 04:11:36 -0700
+
+
+Started GET "/assets/bootstrap/carousel-656b28e3b40b8f076a5367d35c922ce5.js?body=1" for ::1 at 2015-08-12 04:11:36 -0700
+
+
+Started GET "/assets/bootstrap/collapse-3ecef8f681fba0301c0a73d88f25bdcb.js?body=1" for ::1 at 2015-08-12 04:11:36 -0700
+
+
+Started GET "/assets/bootstrap/dropdown-233d389dd49cd80ad6dbba9807090e0e.js?body=1" for ::1 at 2015-08-12 04:11:36 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy-b4582d0e349ac4a20a0e7fb5059d8616.js?body=1" for ::1 at 2015-08-12 04:11:36 -0700
+
+
+Started GET "/assets/bootstrap/transition-fab611c436c05686648bb19c1db1b8e5.js?body=1" for ::1 at 2015-08-12 04:11:36 -0700
+
+
+Started GET "/assets/bootstrap/tab-4c6c439736b7796be77e032c3a3bbf82.js?body=1" for ::1 at 2015-08-12 04:11:36 -0700
+
+
+Started GET "/assets/bootstrap/modal-90855a257b2f14a54956d403b73a0e26.js?body=1" for ::1 at 2015-08-12 04:11:36 -0700
+
+
+Started GET "/assets/bootstrap/tooltip-86ead4f2c47743987db2500760433564.js?body=1" for ::1 at 2015-08-12 04:11:36 -0700
+
+
+Started GET "/assets/bootstrap/popover-a11df332e2824c1da24b60f092a27191.js?body=1" for ::1 at 2015-08-12 04:11:36 -0700
+
+
+Started GET "/assets/bootstrap-sprockets-e280b6d25dc40126d49a94fb005c4e87.js?body=1" for ::1 at 2015-08-12 04:11:36 -0700
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-08-12 04:11:36 -0700
+
+
+Started GET "/assets/welcome-77e1ce7ae790c17f52bccbf0f81cae83.js?body=1" for ::1 at 2015-08-12 04:11:36 -0700
+
+
+Started GET "/assets/drawings-42c2accf40e96956e316e580426a7de0.js?body=1" for ::1 at 2015-08-12 04:11:36 -0700
+
+
+Started GET "/assets/application-96a2f1e9a20ac5f3add3c2120b76c763.js?body=1" for ::1 at 2015-08-12 04:11:36 -0700
+
+
+Started GET "/assets/hero.jpg" for ::1 at 2015-08-12 04:11:36 -0700
+
+
+Started GET "/assets/icomoon.ttf?21prc3" for ::1 at 2015-08-12 04:11:36 -0700
+
+
+Started GET "/" for ::1 at 2015-08-12 04:11:58 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_banner.html.erb (0.4ms)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "drawings"[0m
+  [1m[35mDrawing Load (0.4ms)[0m  SELECT  "drawings".* FROM "drawings" LIMIT 3 OFFSET 0
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "drawings"[0m
+  Rendered welcome/_popular.html.erb (6.0ms)
+  Rendered welcome/index.html.erb within layouts/application (8.9ms)
+  Rendered layouts/_head.html.erb (117.0ms)
+  Rendered layouts/_flash.html.erb (0.1ms)
+  Rendered layouts/_navbar.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 134ms (Views: 132.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application-649c193846542e73f6f90f72ff6dccc5.css?body=1" for ::1 at 2015-08-12 04:11:58 -0700
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-08-12 04:11:58 -0700
+
+
+Started GET "/assets/jquery.turbolinks-051c63717f28dee8f54d3ecd892deff0.js?body=1" for ::1 at 2015-08-12 04:11:58 -0700
+
+
+Started GET "/assets/bootstrap/alert-6434895e1510d8d57f4ffcb204a264b2.js?body=1" for ::1 at 2015-08-12 04:11:58 -0700
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-08-12 04:11:58 -0700
+
+
+Started GET "/assets/bootstrap/affix-31e34272e891aa4cf7c2ad5ba0cbd49f.js?body=1" for ::1 at 2015-08-12 04:11:58 -0700
+
+
+Started GET "/assets/bootstrap/button-5b9b2013a085c560cf419824792d8112.js?body=1" for ::1 at 2015-08-12 04:11:58 -0700
+
+
+Started GET "/assets/bootstrap/carousel-656b28e3b40b8f076a5367d35c922ce5.js?body=1" for ::1 at 2015-08-12 04:11:58 -0700
+
+
+Started GET "/assets/bootstrap/collapse-3ecef8f681fba0301c0a73d88f25bdcb.js?body=1" for ::1 at 2015-08-12 04:11:58 -0700
+
+
+Started GET "/assets/bootstrap/dropdown-233d389dd49cd80ad6dbba9807090e0e.js?body=1" for ::1 at 2015-08-12 04:11:58 -0700
+
+
+Started GET "/assets/bootstrap/tab-4c6c439736b7796be77e032c3a3bbf82.js?body=1" for ::1 at 2015-08-12 04:11:58 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy-b4582d0e349ac4a20a0e7fb5059d8616.js?body=1" for ::1 at 2015-08-12 04:11:58 -0700
+
+
+Started GET "/assets/bootstrap/transition-fab611c436c05686648bb19c1db1b8e5.js?body=1" for ::1 at 2015-08-12 04:11:58 -0700
+
+
+Started GET "/assets/bootstrap/modal-90855a257b2f14a54956d403b73a0e26.js?body=1" for ::1 at 2015-08-12 04:11:58 -0700
+
+
+Started GET "/assets/bootstrap/tooltip-86ead4f2c47743987db2500760433564.js?body=1" for ::1 at 2015-08-12 04:11:58 -0700
+
+
+Started GET "/assets/bootstrap/popover-a11df332e2824c1da24b60f092a27191.js?body=1" for ::1 at 2015-08-12 04:11:58 -0700
+
+
+Started GET "/assets/bootstrap-sprockets-e280b6d25dc40126d49a94fb005c4e87.js?body=1" for ::1 at 2015-08-12 04:11:58 -0700
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-08-12 04:11:58 -0700
+
+
+Started GET "/assets/welcome-77e1ce7ae790c17f52bccbf0f81cae83.js?body=1" for ::1 at 2015-08-12 04:11:58 -0700
+
+
+Started GET "/assets/drawings-42c2accf40e96956e316e580426a7de0.js?body=1" for ::1 at 2015-08-12 04:11:58 -0700
+
+
+Started GET "/assets/application-96a2f1e9a20ac5f3add3c2120b76c763.js?body=1" for ::1 at 2015-08-12 04:11:58 -0700
+
+
+Started GET "/assets/hero.jpg" for ::1 at 2015-08-12 04:11:58 -0700
+
+
+Started GET "/" for ::1 at 2015-08-12 04:12:06 -0700
+Processing by WelcomeController#index as HTML
+  Rendered layouts/_banner.html.erb (0.6ms)
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "drawings"
+  [1m[36mDrawing Load (0.4ms)[0m  [1mSELECT  "drawings".* FROM "drawings" LIMIT 3 OFFSET 0[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "drawings"
+  Rendered welcome/_popular.html.erb (7.3ms)
+  Rendered welcome/index.html.erb within layouts/application (11.1ms)
+  Rendered layouts/_head.html.erb (162.3ms)
+  Rendered layouts/_flash.html.erb (0.1ms)
+  Rendered layouts/_navbar.html.erb (2.7ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 184ms (Views: 182.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application-649c193846542e73f6f90f72ff6dccc5.css?body=1" for ::1 at 2015-08-12 04:12:06 -0700
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-08-12 04:12:06 -0700
+
+
+Started GET "/assets/jquery.turbolinks-051c63717f28dee8f54d3ecd892deff0.js?body=1" for ::1 at 2015-08-12 04:12:06 -0700
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-08-12 04:12:06 -0700
+
+
+Started GET "/assets/bootstrap/affix-31e34272e891aa4cf7c2ad5ba0cbd49f.js?body=1" for ::1 at 2015-08-12 04:12:06 -0700
+
+
+Started GET "/assets/bootstrap/alert-6434895e1510d8d57f4ffcb204a264b2.js?body=1" for ::1 at 2015-08-12 04:12:06 -0700
+
+
+Started GET "/assets/bootstrap/button-5b9b2013a085c560cf419824792d8112.js?body=1" for ::1 at 2015-08-12 04:12:06 -0700
+
+
+Started GET "/assets/bootstrap/carousel-656b28e3b40b8f076a5367d35c922ce5.js?body=1" for ::1 at 2015-08-12 04:12:06 -0700
+
+
+Started GET "/assets/bootstrap/collapse-3ecef8f681fba0301c0a73d88f25bdcb.js?body=1" for ::1 at 2015-08-12 04:12:06 -0700
+
+
+Started GET "/assets/bootstrap/dropdown-233d389dd49cd80ad6dbba9807090e0e.js?body=1" for ::1 at 2015-08-12 04:12:06 -0700
+
+
+Started GET "/assets/bootstrap/tab-4c6c439736b7796be77e032c3a3bbf82.js?body=1" for ::1 at 2015-08-12 04:12:06 -0700
+
+
+Started GET "/assets/bootstrap/transition-fab611c436c05686648bb19c1db1b8e5.js?body=1" for ::1 at 2015-08-12 04:12:06 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy-b4582d0e349ac4a20a0e7fb5059d8616.js?body=1" for ::1 at 2015-08-12 04:12:06 -0700
+
+
+Started GET "/assets/bootstrap/modal-90855a257b2f14a54956d403b73a0e26.js?body=1" for ::1 at 2015-08-12 04:12:06 -0700
+
+
+Started GET "/assets/bootstrap/tooltip-86ead4f2c47743987db2500760433564.js?body=1" for ::1 at 2015-08-12 04:12:06 -0700
+
+
+Started GET "/assets/bootstrap/popover-a11df332e2824c1da24b60f092a27191.js?body=1" for ::1 at 2015-08-12 04:12:06 -0700
+
+
+Started GET "/assets/bootstrap-sprockets-e280b6d25dc40126d49a94fb005c4e87.js?body=1" for ::1 at 2015-08-12 04:12:06 -0700
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-08-12 04:12:06 -0700
+
+
+Started GET "/assets/welcome-77e1ce7ae790c17f52bccbf0f81cae83.js?body=1" for ::1 at 2015-08-12 04:12:06 -0700
+
+
+Started GET "/assets/drawings-42c2accf40e96956e316e580426a7de0.js?body=1" for ::1 at 2015-08-12 04:12:06 -0700
+
+
+Started GET "/assets/application-96a2f1e9a20ac5f3add3c2120b76c763.js?body=1" for ::1 at 2015-08-12 04:12:06 -0700
+
+
+Started GET "/assets/hero.jpg" for ::1 at 2015-08-12 04:12:06 -0700
