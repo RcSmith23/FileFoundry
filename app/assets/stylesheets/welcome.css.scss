@@ -5,15 +5,11 @@
   background-color: #f2f2f2;
   min-height: 300px;
   width: 100%;
-  
-  .row{
-    padding: 15px;
-  }
 }
 
 .pitch {
   background-color: #3366ff;
-  min-height: 300px;
+  min-height: 240px;
   color: #ffffff;
 
   p {
@@ -24,6 +20,10 @@
     position: absolute;
     right: 80px;
   }
+}
+
+#trending {
+  padding-top: 5px;
 }
 
 #trending > .col-md-15 > a {
