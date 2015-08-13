@@ -12,7 +12,7 @@
 .drawings-search {
   min-height: 325px;
   background-image:
-    url(/assets/GridCover.svg),
+//    url(/assets/GridCover.svg),
     url(/assets/filaments.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -33,6 +33,7 @@
     height: 35px;
     padding: 0 5px;
     outline: none;
+    background: #fff;
 
     border-color: transparent;
     border-radius: 0px;
