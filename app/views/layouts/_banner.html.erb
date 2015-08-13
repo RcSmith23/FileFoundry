@@ -1,5 +1,4 @@
 <div class="drawings-search" id="home-search">
-  <%= image_tag "GridCover.svg", class: "grid-overlay" %>
   <div class="container">
     <%= form_tag(drawings_path, :method => "get", class: "drawings-search-form") do %> 
       <%= text_field_tag :search, params[:search], placeholder: "search...",
