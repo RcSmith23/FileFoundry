@@ -1,0 +1,10 @@
+<% if @categories.present? %>
+  <%= @categories.each do |category| %>
+    <%= link_to root_path do %>
+      <% content_tag(:span, class: "search-category-item") do %>
+        <p><%= category.html_safe %></p>
+      <% end %>
+    <% end %>
+  <% end %>
+<% end %>
+

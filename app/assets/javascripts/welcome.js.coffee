@@ -16,6 +16,7 @@ ready = ->
   $('.biginput').blur (ev) ->
     $('#jumbo-search-output').fadeOut(200)
 
+  # Still producing weird behavior when enter hit then back page
   $('.drawings-search-form').submit (ev) ->
     $('#jumbo-search-output').hide()
 

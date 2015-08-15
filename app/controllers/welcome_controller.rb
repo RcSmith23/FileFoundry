@@ -8,13 +8,18 @@ class WelcomeController < ApplicationController
       @trending = Drawing.all.paginate(page: params[:page], per_page: 3)
     end
 
-    # Simple placeholder for the real search that will happen
-    if not params.has_key?(:search)
-      @models = nil 
-      @categories = nil 
-    else
-      @models = Drawing.where("name like ? ", "%#{params[:search]}%").take(4)
-      @categories = nil 
+    if params.has_key?(:search)
+      render action: "search"
     end
   end
+
+  private
+    # Simple placeholder for the real search that will happen
+    def search
+      @models = Drawing.where("name like ? ", "%#{params[:search]}%").take(4)
+      @categories = %w(science technology hardware)
+      respond_to do |format|
+        format.js
+      end
+    end
 end
