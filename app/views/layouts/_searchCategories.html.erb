@@ -1,0 +1,11 @@
+<!-- .present? checks non-nil and has contents -->
+<% if @models.present? %>
+  <%= @models.each do |model| %>
+    <%= link_to drawings_path(model) do %>
+      <% content_tag(:span, class: "search-model-item") do %>
+        <%= image_tag model.res %>
+        <p><%= model.name %></p>
+      <% end %>
+    <% end %>
+  <% end %>
+<% end %>

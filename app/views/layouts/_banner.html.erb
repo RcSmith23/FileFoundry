@@ -1,9 +1,26 @@
 <div class="drawings-search" id="home-search">
   <div class="container">
     <%= form_tag(drawings_path, :method => "get", class: "drawings-search-form") do %> 
-      <%= text_field_tag :search, params[:search], placeholder: "search...",
-          class: "biginput"  %>
-      <div id="jumbo-search-ouput"></div>
+      <%= text_field_tag :search, params[:search], :autocomplete => :off, class: "biginput"  %>
+      <%= button_tag class: "empty" do %>
+        <span class="glyphicon glyphicon-search"></span>
+      <% end %>
     <% end %>
+    <div id="jumbo-search-output">
+      <div class="row">
+        <div class="col-md-2">
+          <h4>Categories</h4>
+          <div id="category-results">
+            <%= render "layouts/searchCategories" %>
+          </div>
+        </div>
+        <div class="col-md-10">
+          <h4>Models</h4>
+          <div id="model-results">
+            <%= render "layouts/searchModels" %>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>

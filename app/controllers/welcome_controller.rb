@@ -7,5 +7,14 @@ class WelcomeController < ApplicationController
     else
       @trending = Drawing.all.paginate(page: params[:page], per_page: 3)
     end
+
+    # Simple placeholder for the real search that will happen
+    if not params.has_key?(:search)
+      @models = nil 
+      @categories = nil 
+    else
+      @models = Drawing.where("name like ? ", "%#{params[:search]}%").take(4)
+      @categories = nil 
+    end
   end
 end
