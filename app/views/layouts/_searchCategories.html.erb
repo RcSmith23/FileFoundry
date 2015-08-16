@@ -1,10 +1,8 @@
-<!-- .present? checks non-nil and has contents -->
-<% if @models.present? %>
-  <%= @models.each do |model| %>
-    <%= link_to drawings_path(model) do %>
-      <% content_tag(:span, class: "search-model-item") do %>
-        <%= image_tag model.res %>
-        <p><%= model.name %></p>
+<% if @categories.present? %>
+  <% @categories.each do |category| %>
+    <%= link_to root_path do %>
+      <% content_tag(:span, class: "search-category-item") do %>
+        <p><%= category.html_safe %></p>
       <% end %>
     <% end %>
   <% end %>

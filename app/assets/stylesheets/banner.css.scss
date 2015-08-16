@@ -104,6 +104,38 @@
   }
 }
 
+div.list-group {
+  border-radius: 0;
+}
+
+a.list-group-item .list-group-item-heading {
+  color: #ffffff;
+}
+
+a.list-group-item:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.list-group-item {
+  background-color: transparent;
+  border: none;
+  &:first-child {
+    border-radius: 0px;
+  }
+  &:last-child {
+    border-radius: 0px;
+  }
+  img {
+    display: block;
+    max-height: 50px;
+    max-width: 50px;
+    width: auto;
+    height: auto;
+  }
+  &:hover {
+  }
+}
+
 #category-results {
   margin: 0;
   width: 100%;

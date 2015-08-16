@@ -2,12 +2,12 @@
 // --- Imports ---
 @import "bootstrap-sprockets";
 @import "bootstrap";
-@import "banner";
 @import "navbar";
 @import "welcome";
 @import "drawings";
 @import "pages";
 @import "layout/footer";
+@import "banner";
 // ---------------
 
 
@@ -161,7 +161,7 @@ body {
   background: rgba(0, 0, 0, 0.6);
   padding: 10px;
   color: #ffffff;
-  z-index: 200; 
+  z-index: 2; 
 }
 
 .design-label {

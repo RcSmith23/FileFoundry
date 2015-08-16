@@ -20,13 +20,10 @@ ready = ->
   $('.drawings-search-form').submit (ev) ->
     $('#jumbo-search-output').hide()
 
-    ###
   $(".biginput").on 'keyup', (ev) ->
-    if $('.biginput').val().length > 0
-      $('#jumbo-search-output').fadeIn(200)
-    else
-      $('#jumbo-search-output').fadeOut(200)
+    $.get(window.location, $('.drawings-search-form').serialize(), null, 'script')
 
+    ###
   $(document).mouseup (ev) ->
     if !$('#jumbo-search-output').is(ev.target) &&
         !$('.biginput').is(ev.target)
