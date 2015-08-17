@@ -1,8 +1,10 @@
 <div class="drawings-search">
   <div class="container">
     <%= form_tag(drawings_path, :method => "get", class: "drawings-search-form") do %>
-      <%= text_field_tag :search, params[:search], placeholder: "search..." ,
-        class: "biginput" %>
+      <%= text_field_tag :search, params[:search], :autocomplete => :off, class: "biginput" %>
+      <%= button_tag class: "empty" do %>
+        <span class="glyphicon glyphicon-search"></span>
+      <% end %>
     <% end %>
   </div>
 </div>
