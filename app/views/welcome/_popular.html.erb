@@ -1,5 +1,5 @@
 <div class="col-md-15">
-  <%= link_to root_path(:page => @trending.current_page-1), class: "tpage" do%>
+  <%= link_to root_path(:page => (@trending.current_page==1 ? 4 : @trending.current_page-1)), class: "tpage" do%>
     <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
   <% end %>
 </div>
@@ -22,7 +22,7 @@
   <% end %>
 <% end %>
 <div class="col-md-15">
-  <%= link_to root_path(:page => @trending.current_page+1), class: "tpage" do%>
+  <%= link_to root_path(:page => (@trending.current_page % 4) + 1), class: "tpage" do%>
     <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
   <% end %>
 </div>
