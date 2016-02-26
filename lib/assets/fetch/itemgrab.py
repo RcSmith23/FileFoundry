@@ -33,7 +33,8 @@ def sketchFetch(itemNumber, fout):
         if imglink: imglink = imglink['src'] 
         else: imglink = ''
         license = soup.find(class_='thing-license')
-        sketch = Sketch(name, summ, dl, tags, imglink, license.prettify())
+        origin = BASE_URL + str(itemNumber)
+        sketch = Sketch(origin, name, summ, dl, tags, imglink, license.prettify())
         fout.write(str(sketch))
 
 if __name__ == '__main__':

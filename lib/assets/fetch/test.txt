@@ -1,0 +1,29 @@
+@ Embroidery Ring    | http://www.thingiverse.com/thing:321103 |    377 | Embroidery, Hoop, Needle_craft, Ring, Stitching | https://thingiverse-production-new.s3.amazonaws.com/renders/d3/f6/41/5c/95/Adjustment_screw_preview_featured.jpg |                      | 
+SummaryRemake of the classic embroidery ring with tension screwInstructionsSimply print the 3 parts. In order to assemble it you'll need two M4 hex nuts and a M4 bolt of 50mm.
+Insert the bolt into the the 'adjustment screw' part and add one of the M4 nuts and tighten this. Add a little 'Loctite'to prevent the nut from loosening itself.
+Insert the other M4 hex nut in the outer ring and secure it in place with a drop superglue and let it dry for a couple of minutes and you're ready to go!!  | <div class="thing-license" title="Creative Commons - Attribution - Share Alike">
+ <div class="cc-licenses">
+  <img src="/img/cc/chooser_cc.png">
+   <img src="/img/cc/chooser_by.png">
+    <img src="/img/cc/chooser_sa.png">
+    </img>
+   </img>
+  </img>
+ </div>
+ <div class="license-text">
+  <a href="/thing:321103">
+   <span property="dc:title" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    Embroidery Ring
+   </span>
+  </a>
+  by
+  <a href="http://www.thingiverse.com/intofocus" property="cc:attributionName" rel="cc:attributionURL" xmlns:cc="http://creativecommons.org/ns#">
+   intofocus
+  </a>
+  is licensed under the
+  <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">
+   Creative Commons - Attribution - Share Alike
+  </a>
+  license.
+ </div>
+</div>
