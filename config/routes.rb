@@ -1,9 +1,10 @@
 Rails.application.routes.draw do
 
-  devise_for :users
   get 'welcome/index'
-  get 'welcome/search', to: 'welcome#search'
   root 'welcome#index'
+  devise_for :users
+  resources :users, :only => [:show]
+  get 'welcome/search', to: 'welcome#search'
 
   resources :drawings
   resources :emails

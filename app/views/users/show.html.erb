@@ -1,0 +1,24 @@
+<div class="container" id="about">
+  <div class="row">
+    
+      <h1> <%= current_user.email %> </h1>
+    <hr>
+  </div>
+  <div class="row">
+    <div class="col-md-5">
+      <h3 align="left"><b>Avatar</b></h3>
+	    <p>
+   		 <strong>Avatar:</strong>
+   		 <%= image_tag current_user.avatar.url(:thumb) %>
+           </p>
+	     
+    </div>
+    <div class="col-md-5 col-md-offset-2">
+      <h3 align="left"><b>Your Stats</b></h3>
+      <h5><i>Reviews, comments, and Uploads</i></h5>
+      <br>
+ 
+    </div>
+  </div>
+</div>
+
