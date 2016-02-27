@@ -185,12 +185,19 @@ body {
 
 .design-name {
   float: left;
+  width: 80%;
+}
+
+span.design-name {
+  overflow: hidden;
+  word-wrap: break-word;
 }
 
 .design-rating {
   font-size: 0.7em;
   color: #3366ff;
   float: right;
+  width: 20%;
 }
 
 a {
