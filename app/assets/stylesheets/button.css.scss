@@ -3,12 +3,47 @@
 
 .btn {
 
-  padding: 14px 24px;
+  padding: 10px 24px;
   border: 0 none;
+  border-radius: 0;
   font-weight: 700;
   letter-spacing: 1px;
   text-transform: uppercase;
 
+  &:focus, &:active:focus, &.active:focus {
+    outline: 0 none;
+  }
+
+  &.outline {
+    background: none;
+    padding: 12px 22px;
+  }
 
 
+}
+
+// Need to decide upon our color scheme for the buttons
+.btn-primary {
+  background: #0099cc;
+  color: #ffffff;
+
+  &:hover, &:focus, &:active, &.active, .open > .dropdown-toggle.btn-primary {
+    background: #33a6cc;
+  }
+
+  &.outline {
+    border: 2px solid #0099cc;
+    color: #0099cc;
+
+    &:hover, &:focus, &:active, &.active, .open > .dropdown-toggle.btn-primary{
+      color: #33a6cc;
+      border-color: #33a6cc;
+    }
+
+    &:active, &.active {
+      border-color: #007299;
+      color: #007299;
+      box-shadow: none;
+    }
+  }
 }
