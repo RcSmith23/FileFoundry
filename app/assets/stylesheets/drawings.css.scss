@@ -1,8 +1,21 @@
-// Place all the styles related to the drawings controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
 
 
+
+
+
+// ----------------- Drawing Show ----------------- //
+
+// 
 .drawing-show {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+// Square image that has float effect
+.img-sharp {
+  box-shadow: 2px 2px 2px #8c8c8c;
+}
+
+.drawing-tabs-container {
   margin-top: 60px;
 }

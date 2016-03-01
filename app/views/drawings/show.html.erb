@@ -7,14 +7,26 @@
   </div>
   <div class="row">
     <div class="col-md-6">
-      <%= image_tag @drawing.res, :alt => @drawing.name, :class => "img-rounded", :style => "width:100%;" %>
+      <%= image_tag @drawing.res, :alt => @drawing.name, :class => "img-sharp", :style => "width:100%;" %>
     </div>
-    <div class="col-md-5 col-md-offset-1">
-      <h3>Description</h3>
-      <%= @drawing.description %>
-      <hr>
+    <div class="col-md-4 col-md-offset-2">
       <%= link_to "Get this model", "#{@drawing.origin}", :class => "btn btn-default" %>
     </div>
   </div>
-  <br><br>
+  <div class="drawing-tabs-container">
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" role="tablist" id="drawing-tabs">
+      <li role="presentation" class="active"><a href="#drawing-desc" aria-controls="home" role="tab" data-toggle="tab">Description</a></li>
+      <li role="presentation"><a href="#drawing-comm" aria-controls="profile" role="tab" data-toggle="tab">Comments</a></li>
+    </ul>
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <div role="tabpanel" class="tab-pane active" id="drawing-desc">
+        <%= @drawing.description %>  
+      </div>
+      <div role="tabpanel" class="tab-pane" id="drawing-comm">
+        <p>This is on some other shit</p>
+      </div>
+    </div>
+  </div>
 </div>
